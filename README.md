@@ -28,12 +28,14 @@
 
 Use this guide as the practical entry point, then move into the Seedance 2.0 API path when you are ready to generate videos.
 
-- [Open the Seedance 2.0 model page](https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-guide)
-- [Read Seedance 2.0 API docs](https://docs.evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-guide)
-- [Get your EvoLink API key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-guide)
-- [Go to Seedance 2.0 API examples](https://github.com/EvoLinkAI/Seedance-2.0-Gateway-Service)
-- [Browse Seedance 2.0 prompt examples](https://github.com/EvoLinkAI/awesome-seedance-2.0-prompts)
-- [Install the Seedance 2.0 OpenClaw skill](https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw)
+<p align="center">
+  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-guide"><strong>Model Page</strong></a> &nbsp;·&nbsp;
+  <a href="https://docs.evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-guide"><strong>Docs</strong></a> &nbsp;·&nbsp;
+  <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-guide"><strong>API Key</strong></a> &nbsp;·&nbsp;
+  <a href="https://github.com/EvoLinkAI/Seedance-2.0-Gateway-Service"><strong>API Examples</strong></a> &nbsp;·&nbsp;
+  <a href="https://github.com/EvoLinkAI/awesome-seedance-2.0-prompts"><strong>Seedance Prompts</strong></a> &nbsp;·&nbsp;
+  <a href="https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw"><strong>Skill</strong></a>
+</p>
 
 ```bash
 export EVOLINK_API_KEY="your_key_here"
@@ -286,7 +288,7 @@ Welcome to submit new cases and prompt templates, simply create a PR!
 Start building multimodal AI video applications today with the Seedance 2.0 Gateway Service through EvoLink.
 
 <p align="center">
-  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-guide"><strong>👉 Get Started Today →</strong></a>
+  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-guide"><strong>Seedance Guide</strong></a>
 </p>
 
 `jimeng` `seedance` `ai-video` `multimodal` `prompts` `video-generation` `bytedance`

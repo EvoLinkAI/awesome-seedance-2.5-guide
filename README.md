@@ -27,6 +27,7 @@ The guide covers 36 official media assets across launch demos, showcase works, n
 - [🍌 Introduction](#-introduction)
 - [📑 Menu](#-menu)
 - [🚀 Quick Start](#-quick-start)
+- [🧭 Original Seedance 2 Guide](#-original-seedance-2-guide)
 - [🎬 Featured Seedance 2.5 Demos](#-featured-seedance-25-demos)
 - [🌟 Official Showcase Works](#-official-showcase-works)
 - [🧭 Narrative and Reference Control](#-narrative-and-reference-control)
@@ -38,6 +39,9 @@ The guide covers 36 official media assets across launch demos, showcase works, n
 ## 🚀 Quick Start
 
 Use this repo to inspect official 2.5 examples, copy prompt structures, and join the 2.5 rollout.
+
+> [!NOTE]
+> This Quick Start intentionally keeps the current verified `seedance-2.0-text-to-video` model ID and the current Seedance 2 API path. Seedance 2.5 API access is coming soon through the early access rollout; do not replace the runnable 2.0 model ID with an unverified 2.5 model ID yet.
 
 ```bash
 export EVOLINK_API_KEY="your_key_here"
@@ -55,6 +59,16 @@ curl --request POST \
     "generate_audio": true
   }'
 ```
+
+## 🧭 Original Seedance 2 Guide
+
+The new Seedance 2.5 official guide is placed first in this README. The original Seedance 2 guide is still preserved as a jump target for the current API path, use-case writing patterns, and multimodal workflow notes.
+
+- [Open the original Seedance 2 guide index](use-cases/README.md)
+- [English Seedance 2 use cases](use-cases/en/README.md)
+- [简体中文 Seedance 2 用例](use-cases/zh-CN/README.md)
+- [繁體中文 Seedance 2 用例](use-cases/zh-TW/README.md)
+- [Current Seedance API examples](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
 ## 🎬 Featured Seedance 2.5 Demos
 
@@ -699,6 +713,9 @@ AI 特效仅做环境和质感强化：风吹衣摆、轻雾、接触点少量�
 │   └── seedance-2-5-manifest.json
 └── use-cases/
     └── en/
+        ├── README.md
+        ├── 01-consistency.md
+        ├── ...
         └── official-seedance-2-5-guide.md
 ```
 

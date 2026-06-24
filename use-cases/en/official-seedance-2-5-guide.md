@@ -4,7 +4,7 @@
 
 ### Case 1: Hero Demo 1: Official Launch Film 1
 
-[![Hero Demo 1: Official Launch Film 1](assets/thumbnails/01-hero-demo-1-official-launch-film-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4)
+[![Hero Demo 1: Official Launch Film 1](../../assets/thumbnails/01-hero-demo-1-official-launch-film-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4)
 
 **Prompt:**
 
@@ -20,7 +20,7 @@
 
 ### Case 2: Hero Demo 2: Official Launch Film 2
 
-[![Hero Demo 2: Official Launch Film 2](assets/thumbnails/02-hero-demo-2-official-launch-film-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4)
+[![Hero Demo 2: Official Launch Film 2](../../assets/thumbnails/02-hero-demo-2-official-launch-film-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4)
 
 **Prompt:**
 
@@ -42,7 +42,7 @@
 
 ### Case 3: Hero Demo 3: Official Launch Film 3
 
-[![Hero Demo 3: Official Launch Film 3](assets/thumbnails/03-hero-demo-3-official-launch-film-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4)
+[![Hero Demo 3: Official Launch Film 3](../../assets/thumbnails/03-hero-demo-3-official-launch-film-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4)
 
 **Prompt:**
 
@@ -62,7 +62,7 @@
 
 ### Case 4: Official Showcase 4: Visual Effects
 
-[![Official Showcase 4: Visual Effects](assets/thumbnails/04-official-showcase-4-visual-effects.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4)
+[![Official Showcase 4: Visual Effects](../../assets/thumbnails/04-official-showcase-4-visual-effects.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4)
 
 **Prompt:**
 
@@ -85,7 +85,7 @@
 
 ### Case 5: Official Showcase 5: Cinematic Film
 
-[![Official Showcase 5: Cinematic Film](assets/thumbnails/05-official-showcase-5-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4)
+[![Official Showcase 5: Cinematic Film](../../assets/thumbnails/05-official-showcase-5-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4)
 
 **Prompt:**
 
@@ -104,7 +104,7 @@
 
 ### Case 6: Official Showcase 6: Post-Production VFX
 
-[![Official Showcase 6: Post-Production VFX](assets/thumbnails/06-official-showcase-6-post-production-vfx.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4)
+[![Official Showcase 6: Post-Production VFX](../../assets/thumbnails/06-official-showcase-6-post-production-vfx.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4)
 
 **Prompt:**
 
@@ -116,7 +116,7 @@
 
 ### Case 7: Official Showcase 7: Cinematic Film
 
-[![Official Showcase 7: Cinematic Film](assets/thumbnails/07-official-showcase-7-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4)
+[![Official Showcase 7: Cinematic Film](../../assets/thumbnails/07-official-showcase-7-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4)
 
 **Prompt:**
 
@@ -128,7 +128,7 @@
 
 ### Case 8: Official Showcase 8: Advertising
 
-[![Official Showcase 8: Advertising](assets/thumbnails/08-official-showcase-8-advertising.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4)
+[![Official Showcase 8: Advertising](../../assets/thumbnails/08-official-showcase-8-advertising.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4)
 
 **Prompt:**
 
@@ -142,7 +142,7 @@
 
 ### Case 9: Official Showcase 9: Cinematic Film
 
-[![Official Showcase 9: Cinematic Film](assets/thumbnails/09-official-showcase-9-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4)
+[![Official Showcase 9: Cinematic Film](../../assets/thumbnails/09-official-showcase-9-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4)
 
 **Prompt:**
 
@@ -154,7 +154,7 @@
 
 ### Case 10: Official Showcase 10: Game Trailer
 
-[![Official Showcase 10: Game Trailer](assets/thumbnails/10-official-showcase-10-game-trailer.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4)
+[![Official Showcase 10: Game Trailer](../../assets/thumbnails/10-official-showcase-10-game-trailer.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4)
 
 **Prompt:**
 
@@ -208,7 +208,7 @@
 
 ### Case 11: Official Showcase 11: Cinematic Film
 
-[![Official Showcase 11: Cinematic Film](assets/thumbnails/11-official-showcase-11-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4)
+[![Official Showcase 11: Cinematic Film](../../assets/thumbnails/11-official-showcase-11-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4)
 
 **Prompt:**
 
@@ -220,7 +220,7 @@
 
 ### Case 12: Official Showcase 12: Educational Film
 
-[![Official Showcase 12: Educational Film](assets/thumbnails/12-official-showcase-12-educational-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4)
+[![Official Showcase 12: Educational Film](../../assets/thumbnails/12-official-showcase-12-educational-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4)
 
 **Prompt:**
 
@@ -250,7 +250,7 @@
 
 ### Case 13: Narrative Control 13: 30-Second Continuous Output group-1
 
-[![Narrative Control 13: 30-Second Continuous Output group-1](assets/thumbnails/13-narrative-control-13-30-second-continuous-output-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4)
+[![Narrative Control 13: 30-Second Continuous Output group-1](../../assets/thumbnails/13-narrative-control-13-30-second-continuous-output-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4)
 
 **Prompt:**
 
@@ -272,7 +272,7 @@
 
 ### Case 14: Narrative Control 14: 30-Second Continuous Output group-2
 
-[![Narrative Control 14: 30-Second Continuous Output group-2](assets/thumbnails/14-narrative-control-14-30-second-continuous-output-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4)
+[![Narrative Control 14: 30-Second Continuous Output group-2](../../assets/thumbnails/14-narrative-control-14-30-second-continuous-output-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4)
 
 **Prompt:**
 
@@ -293,7 +293,7 @@
 
 ### Case 15: Narrative Control 15: 30-Second Continuous Output group-3
 
-[![Narrative Control 15: 30-Second Continuous Output group-3](assets/thumbnails/15-narrative-control-15-30-second-continuous-output-group-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4)
+[![Narrative Control 15: 30-Second Continuous Output group-3](../../assets/thumbnails/15-narrative-control-15-30-second-continuous-output-group-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4)
 
 **Prompt:**
 
@@ -334,16 +334,16 @@
 
 **Input:**
 
-- [![Reference Asset 17: Multi-Reference Input group-1](assets/thumbnails/17-reference-asset-17-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4)
-- [![Reference Asset 18: Multi-Reference Input group-1](assets/thumbnails/18-reference-asset-18-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4)
-- [![Reference Asset 19: Multi-Reference Input group-1](assets/thumbnails/19-reference-asset-19-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4)
+- [![Reference Asset 17: Multi-Reference Input group-1](../../assets/thumbnails/17-reference-asset-17-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4)
+- [![Reference Asset 18: Multi-Reference Input group-1](../../assets/thumbnails/18-reference-asset-18-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4)
+- [![Reference Asset 19: Multi-Reference Input group-1](../../assets/thumbnails/19-reference-asset-19-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4)
 
 </td>
 <td width="50%">
 
 **Output:**
 
-[![Narrative Control 16: Multi-Reference Input group-1](assets/thumbnails/16-narrative-control-16-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4)
+[![Narrative Control 16: Multi-Reference Input group-1](../../assets/thumbnails/16-narrative-control-16-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4)
 
 </td>
 </tr>
@@ -378,19 +378,19 @@
 
 **Input:**
 
-- [![Reference Asset 21: Multi-Reference Input group-2](assets/thumbnails/21-reference-asset-21-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4)
-- [![Reference Asset 22: Multi-Reference Input group-2](assets/thumbnails/22-reference-asset-22-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4)
-- [![Reference Asset 23: Multi-Reference Input group-2](assets/thumbnails/23-reference-asset-23-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4)
-- [![Reference Asset 24: Multi-Reference Input group-2](assets/thumbnails/24-reference-asset-24-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4)
-- [![Reference Asset 25: Multi-Reference Input group-2](assets/thumbnails/25-reference-asset-25-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4)
-- [![Reference Asset 26: Multi-Reference Input group-2](assets/thumbnails/26-reference-asset-26-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4)
+- [![Reference Asset 21: Multi-Reference Input group-2](../../assets/thumbnails/21-reference-asset-21-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4)
+- [![Reference Asset 22: Multi-Reference Input group-2](../../assets/thumbnails/22-reference-asset-22-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4)
+- [![Reference Asset 23: Multi-Reference Input group-2](../../assets/thumbnails/23-reference-asset-23-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4)
+- [![Reference Asset 24: Multi-Reference Input group-2](../../assets/thumbnails/24-reference-asset-24-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4)
+- [![Reference Asset 25: Multi-Reference Input group-2](../../assets/thumbnails/25-reference-asset-25-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4)
+- [![Reference Asset 26: Multi-Reference Input group-2](../../assets/thumbnails/26-reference-asset-26-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4)
 
 </td>
 <td width="50%">
 
 **Output:**
 
-[![Narrative Control 20: Multi-Reference Input group-2](assets/thumbnails/20-narrative-control-20-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4)
+[![Narrative Control 20: Multi-Reference Input group-2](../../assets/thumbnails/20-narrative-control-20-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4)
 
 </td>
 </tr>
@@ -409,7 +409,7 @@
 
 ### Case 18: Narrative Control 27: Second-Level Frame Control group-1
 
-[![Narrative Control 27: Second-Level Frame Control group-1](assets/thumbnails/27-narrative-control-27-second-level-frame-control-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4)
+[![Narrative Control 27: Second-Level Frame Control group-1](../../assets/thumbnails/27-narrative-control-27-second-level-frame-control-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4)
 
 **Prompt:**
 
@@ -443,7 +443,7 @@
 
 ### Case 19: Narrative Control 28: Second-Level Frame Control group-2
 
-[![Narrative Control 28: Second-Level Frame Control group-2](assets/thumbnails/28-narrative-control-28-second-level-frame-control-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4)
+[![Narrative Control 28: Second-Level Frame Control group-2](../../assets/thumbnails/28-narrative-control-28-second-level-frame-control-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4)
 
 **Prompt:**
 
@@ -474,7 +474,7 @@
 
 ### Case 20: Multilingual Expression 29: group-1
 
-[![Multilingual Expression 29: group-1](assets/thumbnails/29-multilingual-expression-29-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4)
+[![Multilingual Expression 29: group-1](../../assets/thumbnails/29-multilingual-expression-29-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4)
 
 **Prompt:**
 
@@ -501,7 +501,7 @@
 
 ### Case 21: Multilingual Expression 30: group-2
 
-[![Multilingual Expression 30: group-2](assets/thumbnails/30-multilingual-expression-30-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4)
+[![Multilingual Expression 30: group-2](../../assets/thumbnails/30-multilingual-expression-30-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4)
 
 **Prompt:**
 
@@ -537,14 +537,14 @@
 
 **Input:**
 
-- [![Controllable Editing 32: Reference](assets/thumbnails/32-controllable-editing-32-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4)
+- [![Controllable Editing 32: Reference](../../assets/thumbnails/32-controllable-editing-32-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4)
 
 </td>
 <td width="50%">
 
 **Output:**
 
-[![Controllable Editing 31: Edited Output](assets/thumbnails/31-controllable-editing-31-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4)
+[![Controllable Editing 31: Edited Output](../../assets/thumbnails/31-controllable-editing-31-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4)
 
 </td>
 </tr>
@@ -570,14 +570,14 @@
 
 **Input:**
 
-- [![Controllable Editing 34: Reference](assets/thumbnails/34-controllable-editing-34-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4)
+- [![Controllable Editing 34: Reference](../../assets/thumbnails/34-controllable-editing-34-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4)
 
 </td>
 <td width="50%">
 
 **Output:**
 
-[![Controllable Editing 33: Edited Output](assets/thumbnails/33-controllable-editing-33-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4)
+[![Controllable Editing 33: Edited Output](../../assets/thumbnails/33-controllable-editing-33-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4)
 
 </td>
 </tr>
@@ -603,14 +603,14 @@
 
 **Input:**
 
-- [![Controllable Editing 36: Reference](assets/thumbnails/36-controllable-editing-36-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4)
+- [![Controllable Editing 36: Reference](../../assets/thumbnails/36-controllable-editing-36-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4)
 
 </td>
 <td width="50%">
 
 **Output:**
 
-[![Controllable Editing 35: Edited Output](assets/thumbnails/35-controllable-editing-35-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4)
+[![Controllable Editing 35: Edited Output](../../assets/thumbnails/35-controllable-editing-35-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4)
 
 </td>
 </tr>

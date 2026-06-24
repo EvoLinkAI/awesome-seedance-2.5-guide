@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedance-2.5-guide"><img src="assets/banner.jpg" alt="Seedance 2.5 Early Access guide" width="100%"></a>
+<a href="https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedance-2.5-guide"><img src="assets/banner.png" alt="Seedance 2.5 Early Access guide" width="100%"></a>
 
 # Seedance 2.5 Official Guide
 
@@ -693,7 +693,7 @@ AI 特效仅做环境和质感强化：风吹衣摆、轻雾、接触点少量�
 .
 ├── README.md
 ├── assets/
-│   ├── banner.jpg
+│   ├── banner.png
 │   └── thumbnails/
 ├── data/
 │   └── seedance-2-5-manifest.json

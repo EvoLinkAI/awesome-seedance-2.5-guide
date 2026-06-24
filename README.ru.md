@@ -1,6 +1,6 @@
-# Seedance 2.5 公式ガイド
+# Официальный гид Seedance 2.5
 
-Seedance 2.5 の早期アクセスは EvoLink で受付中です。
+Ранний доступ к Seedance 2.5 уже открыт через EvoLink.
 
 [Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [English full guide](README.md) · [API Key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
 

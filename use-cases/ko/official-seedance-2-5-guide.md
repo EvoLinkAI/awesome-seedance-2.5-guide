@@ -1,79 +1,21 @@
-<div align="center">
-
-<a href="https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedance-2.5-guide"><img src="assets/banner.png" alt="Seedance 2.5 Early Access guide" width="100%"></a>
-
 # Seedance 2.5 공식 가이드
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Get Seedance 2.5 Early Access](https://img.shields.io/badge/Get_Seedance_2.5-Early_Access-black)](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
-[![Official Guide](https://img.shields.io/badge/Official_Guide-36_Media_Assets-7C3AED)](data/seedance-2-5-manifest.json)
-[![API Key](https://img.shields.io/badge/API_Key-EvoLink-orange)](https://evolink.ai/signup?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
+[저장소 README로 돌아가기](../../README.ko.md) · [기존 Seedance 2 가이드 색인으로 돌아가기](../README.md)
 
-[English](README.md) · [Español](README.es.md) · [Português](README.pt.md) · [日本語](README.ja.md) · **한국어** · [Deutsch](README.de.md) · [Français](README.fr.md) · [Türkçe](README.tr.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [Русский](README.ru.md)
-
-</div>
-
-## 🍌 소개
+> [!NOTE]
+> 현재 실행 가능한 API 스니펫은 Seedance 2.5 early access rollout 중에도 안정적인 Seedance 2 API 경로를 사용합니다. 검증된 `seedance-2.0-*` model ID를 검증되지 않은 2.5 ID로 바꾸지 마세요.
 
 Seedance 2.5 early access는 EvoLink를 통해 열려 있습니다. 이 저장소는 공식 출시 자료를 크리에이터, 개발자, AI 비디오 팀을 위한 GitHub 네이티브 가이드로 정리합니다.
 
 가이드는 출시 데모, 쇼케이스, 내러티브 제어, 다국어 표현, 제어 가능한 편집에 걸친 36개의 공식 미디어 에셋을 다룹니다. 모두 공식 사례이므로 개별 케이스에는 작성자나 출처 라인을 넣지 않습니다.
 
-[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [API 키 받기](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [현재 Seedance API 예제](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
-
-> [!NOTE]
-> 현재 실행 가능한 API 스니펫은 Seedance 2.5 early access rollout 중에도 안정적인 Seedance 2 API 경로를 사용합니다. 검증된 `seedance-2.0-*` model ID를 검증되지 않은 2.5 ID로 바꾸지 마세요.
-
-## 📑 메뉴
-
-- 소개
-- 빠른 시작
-- 기존 Seedance 2 가이드
-- Seedance 2.5 공식 가이드
-- 저장소 구조
-- 감사의 말
-
-## 🚀 빠른 시작
-
-공식 2.5 예제를 검토하고 prompt 구조를 복사하며 2.5 rollout에 참여할 수 있습니다.
-
-> [!NOTE]
-> 이 빠른 시작은 검증된 `seedance-2.0-text-to-video` model ID와 현재 Seedance 2 API 경로를 의도적으로 유지합니다. Seedance 2.5 API access는 early access로 진행 중이므로 검증되지 않은 2.5 model ID로 교체하지 마세요.
-
-```bash
-export EVOLINK_API_KEY="your_key_here"
-
-curl --request POST \
-  --url https://api.evolink.ai/v1/videos/generations \
-  --header "Authorization: Bearer ${EVOLINK_API_KEY}" \
-  --header 'Content-Type: application/json' \
-  --data '{
-    "model": "seedance-2.0-text-to-video",
-    "prompt": "A cinematic product reveal, slow dolly-in, reflective glass table, premium commercial lighting",
-    "duration": 5,
-    "quality": "720p",
-    "aspect_ratio": "16:9",
-    "generate_audio": true
-  }'
-```
-
-## 🧭 기존 Seedance 2 가이드
-
-새 Seedance 2.5 공식 가이드를 먼저 배치했습니다. 기존 Seedance 2 가이드는 현재 API 경로, 유스케이스 작성 패턴, 멀티모달 workflow 참고용으로 보존했습니다.
-
-- [기존 Seedance 2 가이드 색인 열기](use-cases/README.md)
-- [영어 Seedance 2 유스케이스](use-cases/en/README.md)
-- [중국어 간체 Seedance 2 유스케이스](use-cases/zh-CN/README.md)
-- [중국어 번체 Seedance 2 유스케이스](use-cases/zh-TW/README.md)
-- [현재 Seedance API 예제](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
-
-## 🎬 Seedance 2.5 공식 가이드
+[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [현재 Seedance API 예제](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
 ## 스크롤 없이 볼 수 있는 동영상
 
 ### Case 1: 스크롤 없이 볼 수 있는 동영상 1
 
-[![스크롤 없이 볼 수 있는 동영상 1](assets/thumbnails/01-hero-demo-1-official-launch-film-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4)
+[![스크롤 없이 볼 수 있는 동영상 1](../../assets/thumbnails/01-hero-demo-1-official-launch-film-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -91,7 +33,7 @@ curl --request POST \
 
 ### Case 2: 스크롤 없이 볼 수 있는 동영상 2
 
-[![스크롤 없이 볼 수 있는 동영상 2](assets/thumbnails/02-hero-demo-2-official-launch-film-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4)
+[![스크롤 없이 볼 수 있는 동영상 2](../../assets/thumbnails/02-hero-demo-2-official-launch-film-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -115,7 +57,7 @@ curl --request POST \
 
 ### Case 3: 스크롤 없이 볼 수 있는 동영상 3
 
-[![스크롤 없이 볼 수 있는 동영상 3](assets/thumbnails/03-hero-demo-3-official-launch-film-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4)
+[![스크롤 없이 볼 수 있는 동영상 3](../../assets/thumbnails/03-hero-demo-3-official-launch-film-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -139,7 +81,7 @@ curl --request POST \
 
 ### Case 4: 시각효과 1
 
-[![시각효과 1](assets/thumbnails/04-official-showcase-4-visual-effects.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4)
+[![시각효과 1](../../assets/thumbnails/04-official-showcase-4-visual-effects.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -164,7 +106,7 @@ curl --request POST \
 
 ### Case 5: 영화 2
 
-[![영화 2](assets/thumbnails/05-official-showcase-5-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4)
+[![영화 2](../../assets/thumbnails/05-official-showcase-5-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -185,7 +127,7 @@ curl --request POST \
 
 ### Case 6: 후반 작업 효과 3
 
-[![후반 작업 효과 3](assets/thumbnails/06-official-showcase-6-post-production-vfx.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4)
+[![후반 작업 효과 3](../../assets/thumbnails/06-official-showcase-6-post-production-vfx.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -199,7 +141,7 @@ curl --request POST \
 
 ### Case 7: 영화 4
 
-[![영화 4](assets/thumbnails/07-official-showcase-7-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4)
+[![영화 4](../../assets/thumbnails/07-official-showcase-7-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -213,7 +155,7 @@ curl --request POST \
 
 ### Case 8: 광고 5
 
-[![광고 5](assets/thumbnails/08-official-showcase-8-advertising.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4)
+[![광고 5](../../assets/thumbnails/08-official-showcase-8-advertising.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -229,7 +171,7 @@ curl --request POST \
 
 ### Case 9: 영화 6
 
-[![영화 6](assets/thumbnails/09-official-showcase-9-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4)
+[![영화 6](../../assets/thumbnails/09-official-showcase-9-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -243,7 +185,7 @@ curl --request POST \
 
 ### Case 10: 게임 7
 
-[![게임 7](assets/thumbnails/10-official-showcase-10-game-trailer.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4)
+[![게임 7](../../assets/thumbnails/10-official-showcase-10-game-trailer.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -299,7 +241,7 @@ curl --request POST \
 
 ### Case 11: 영화와 TV 8
 
-[![영화와 TV 8](assets/thumbnails/11-official-showcase-11-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4)
+[![영화와 TV 8](../../assets/thumbnails/11-official-showcase-11-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -313,7 +255,7 @@ curl --request POST \
 
 ### Case 12: 대중과학 9
 
-[![대중과학 9](assets/thumbnails/12-official-showcase-12-educational-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4)
+[![대중과학 9](../../assets/thumbnails/12-official-showcase-12-educational-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -345,7 +287,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 13: 내러티브의 경계 돌파 - 연속성 30초 - 아웃풋 - 1
 
-[![내러티브의 경계 돌파 - 연속성 30초 - 아웃풋 - 1](assets/thumbnails/13-narrative-control-13-30-second-continuous-output-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4)
+[![내러티브의 경계 돌파 - 연속성 30초 - 아웃풋 - 1](../../assets/thumbnails/13-narrative-control-13-30-second-continuous-output-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -371,7 +313,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 14: 내러티브의 경계 돌파 - 연속성 30초 - 아웃풋 - 2
 
-[![내러티브의 경계 돌파 - 연속성 30초 - 아웃풋 - 2](assets/thumbnails/14-narrative-control-14-30-second-continuous-output-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4)
+[![내러티브의 경계 돌파 - 연속성 30초 - 아웃풋 - 2](../../assets/thumbnails/14-narrative-control-14-30-second-continuous-output-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -396,7 +338,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 15: 내러티브의 경계 돌파 - 연속성 30초 - 아웃풋 - 3
 
-[![내러티브의 경계 돌파 - 연속성 30초 - 아웃풋 - 3](assets/thumbnails/15-narrative-control-15-30-second-continuous-output-group-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4)
+[![내러티브의 경계 돌파 - 연속성 30초 - 아웃풋 - 3](../../assets/thumbnails/15-narrative-control-15-30-second-continuous-output-group-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -435,7 +377,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 16: 서사의 경계를 넓히다 - 더 많은 참조 입출력 - 1
 
-[![서사의 경계를 넓히다 - 더 많은 참조 입출력 - 1](assets/thumbnails/16-narrative-control-16-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4)
+[![서사의 경계를 넓히다 - 더 많은 참조 입출력 - 1](../../assets/thumbnails/16-narrative-control-16-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -464,7 +406,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 17: 내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-1-1
 
-[![내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-1-1](assets/thumbnails/17-reference-asset-17-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4)
+[![내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-1-1](../../assets/thumbnails/17-reference-asset-17-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -493,7 +435,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 18: 내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-1-2
 
-[![내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-1-2](assets/thumbnails/18-reference-asset-18-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4)
+[![내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-1-2](../../assets/thumbnails/18-reference-asset-18-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -522,7 +464,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 19: 내러티브의 경계를 허무다 - 더 많은 참조 입력 - 참조 비디오 - 1-6
 
-[![내러티브의 경계를 허무다 - 더 많은 참조 입력 - 참조 비디오 - 1-6](assets/thumbnails/19-reference-asset-19-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4)
+[![내러티브의 경계를 허무다 - 더 많은 참조 입력 - 참조 비디오 - 1-6](../../assets/thumbnails/19-reference-asset-19-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -551,7 +493,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 20: 서사의 경계를 넓히다 - 더 많은 참조 입출력 - 2
 
-[![서사의 경계를 넓히다 - 더 많은 참조 입출력 - 2](assets/thumbnails/20-narrative-control-20-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4)
+[![서사의 경계를 넓히다 - 더 많은 참조 입출력 - 2](../../assets/thumbnails/20-narrative-control-20-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -570,7 +512,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 21: 내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-2-2
 
-[![내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-2-2](assets/thumbnails/21-reference-asset-21-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4)
+[![내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-2-2](../../assets/thumbnails/21-reference-asset-21-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -589,7 +531,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 22: 내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-2-3
 
-[![내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-2-3](assets/thumbnails/22-reference-asset-22-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4)
+[![내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-2-3](../../assets/thumbnails/22-reference-asset-22-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -608,7 +550,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 23: 내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-2-4
 
-[![내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-2-4](assets/thumbnails/23-reference-asset-23-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4)
+[![내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-2-4](../../assets/thumbnails/23-reference-asset-23-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -627,7 +569,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 24: 내러티브의 경계를 허물다 - 더 많은 레퍼런스 입력 - 레퍼런스 비디오 - 2-5
 
-[![내러티브의 경계를 허물다 - 더 많은 레퍼런스 입력 - 레퍼런스 비디오 - 2-5](assets/thumbnails/24-reference-asset-24-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4)
+[![내러티브의 경계를 허물다 - 더 많은 레퍼런스 입력 - 레퍼런스 비디오 - 2-5](../../assets/thumbnails/24-reference-asset-24-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -646,7 +588,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 25: 내러티브의 경계를 허무다 - 더 많은 참조 입력 - 참조 비디오 - 2-6
 
-[![내러티브의 경계를 허무다 - 더 많은 참조 입력 - 참조 비디오 - 2-6](assets/thumbnails/25-reference-asset-25-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4)
+[![내러티브의 경계를 허무다 - 더 많은 참조 입력 - 참조 비디오 - 2-6](../../assets/thumbnails/25-reference-asset-25-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -665,7 +607,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 26: 내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-2-7
 
-[![내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-2-7](assets/thumbnails/26-reference-asset-26-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4)
+[![내러티브의 경계를 허무다-더 많은 참조 입력-참조 비디오-2-7](../../assets/thumbnails/26-reference-asset-26-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -684,7 +626,7 @@ Shot 4: 고대와 현대를 넘나들며 현재에 이르다(13~16초)
 
 ### Case 27: 내러티브의 경계를 뛰어넘다 - 2차 화면제어 - 출력 - 1
 
-[![내러티브의 경계를 뛰어넘다 - 2차 화면제어 - 출력 - 1](assets/thumbnails/27-narrative-control-27-second-level-frame-control-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4)
+[![내러티브의 경계를 뛰어넘다 - 2차 화면제어 - 출력 - 1](../../assets/thumbnails/27-narrative-control-27-second-level-frame-control-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -722,7 +664,7 @@ Desert Horned Lizard의 퍼포먼스는 처음에는 매우 흥미로웠지만, 
 
 ### Case 28: 내러티브의 경계를 허물다-2차 화면제어-출력-2
 
-[![내러티브의 경계를 허물다-2차 화면제어-출력-2](assets/thumbnails/28-narrative-control-28-second-level-frame-control-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4)
+[![내러티브의 경계를 허물다-2차 화면제어-출력-2](../../assets/thumbnails/28-narrative-control-28-second-level-frame-control-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -757,7 +699,7 @@ Desert Horned Lizard의 퍼포먼스는 처음에는 매우 흥미로웠지만, 
 
 ### Case 29: 다국어 프리젠테이션-다국어 표현-출력-1 확장
 
-[![다국어 프리젠테이션-다국어 표현-출력-1 확장](assets/thumbnails/29-multilingual-expression-29-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4)
+[![다국어 프리젠테이션-다국어 표현-출력-1 확장](../../assets/thumbnails/29-multilingual-expression-29-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -788,7 +730,7 @@ Desert Horned Lizard의 퍼포먼스는 처음에는 매우 흥미로웠지만, 
 
 ### Case 30: 다국어 프리젠테이션-다국어 표현-출력-2 확장
 
-[![다국어 프리젠테이션-다국어 표현-출력-2 확장](assets/thumbnails/30-multilingual-expression-30-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4)
+[![다국어 프리젠테이션-다국어 표현-출력-2 확장](../../assets/thumbnails/30-multilingual-expression-30-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -822,7 +764,7 @@ Scene 9<<<image_9_9>>>한국의 거리, 현대적인 도시의 느낌. 젊은 �
 
 ### Case 31: 제어된 편집 1 출력
 
-[![제어된 편집 1 출력](assets/thumbnails/31-controllable-editing-31-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4)
+[![제어된 편집 1 출력](../../assets/thumbnails/31-controllable-editing-31-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -842,7 +784,7 @@ Scene 9<<<image_9_9>>>한국의 거리, 현대적인 도시의 느낌. 젊은 �
 
 ### Case 32: 제어 편집 1 참조
 
-[![제어 편집 1 참조](assets/thumbnails/32-controllable-editing-32-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4)
+[![제어 편집 1 참조](../../assets/thumbnails/32-controllable-editing-32-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -862,7 +804,7 @@ Scene 9<<<image_9_9>>>한국의 거리, 현대적인 도시의 느낌. 젊은 �
 
 ### Case 33: 제어된 편집 2 출력
 
-[![제어된 편집 2 출력](assets/thumbnails/33-controllable-editing-33-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4)
+[![제어된 편집 2 출력](../../assets/thumbnails/33-controllable-editing-33-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -882,7 +824,7 @@ Scene 9<<<image_9_9>>>한국의 거리, 현대적인 도시의 느낌. 젊은 �
 
 ### Case 34: 제어 편집 2 참조
 
-[![제어 편집 2 참조](assets/thumbnails/34-controllable-editing-34-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4)
+[![제어 편집 2 참조](../../assets/thumbnails/34-controllable-editing-34-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -902,7 +844,7 @@ Scene 9<<<image_9_9>>>한국의 거리, 현대적인 도시의 느낌. 젊은 �
 
 ### Case 35: 제어된 편집 3 출력
 
-[![제어된 편집 3 출력](assets/thumbnails/35-controllable-editing-35-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4)
+[![제어된 편집 3 출력](../../assets/thumbnails/35-controllable-editing-35-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -924,7 +866,7 @@ AI 특수 효과는 바람에 날리는 옷, 옅은 안개, 접점의 소량의 
 
 ### Case 36: 제어 편집 3 참조
 
-[![제어 편집 3 참조](assets/thumbnails/36-controllable-editing-36-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4)
+[![제어 편집 3 참조](../../assets/thumbnails/36-controllable-editing-36-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4)
 
 [비디오 재생](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4) · 썸네일을 클릭하면 비디오를 재생할 수 있습니다.
 
@@ -943,34 +885,3 @@ AI 특수 효과는 바람에 날리는 옷, 옅은 안개, 접점의 소량의 
 > 이 공식 사례에는 manifest에 listed 된 참조 에셋도 포함됩니다.
 
 ---
-
-## 📁 저장소 구조
-
-```text
-.
-├── README.md
-├── README.<lang>.md
-├── assets/
-│   ├── banner.png
-│   └── thumbnails/
-├── data/
-│   ├── seedance-2-5-manifest.json
-│   └── seedance-2-5-prompt-translations.json
-└── use-cases/
-    ├── README.md
-    ├── en/
-    │   ├── README.md
-    │   ├── 01-consistency.md
-    │   └── official-seedance-2-5-guide.md
-    └── <lang>/
-        ├── README.md
-        └── official-seedance-2-5-guide.md
-```
-
-## 🙏 감사의 말
-
-이 저장소는 Seedance 2.5 early access 공개 가이드로 EvoLink가 유지합니다.
-
-- Official early access: [Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
-- Current API key path: [EvoLink signup](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
-- Current API examples: [Seedance 2.5 Gateway Service](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)

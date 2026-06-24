@@ -1,79 +1,21 @@
-<div align="center">
-
-<a href="https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedance-2.5-guide"><img src="assets/banner.png" alt="Seedance 2.5 Early Access guide" width="100%"></a>
-
 # Официальный гайд Seedance 2.5
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Get Seedance 2.5 Early Access](https://img.shields.io/badge/Get_Seedance_2.5-Early_Access-black)](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
-[![Official Guide](https://img.shields.io/badge/Official_Guide-36_Media_Assets-7C3AED)](data/seedance-2-5-manifest.json)
-[![API Key](https://img.shields.io/badge/API_Key-EvoLink-orange)](https://evolink.ai/signup?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
+[Назад к README репозитория](../../README.ru.md) · [Назад к исходному индексу Seedance 2](../README.md)
 
-[English](README.md) · [Español](README.es.md) · [Português](README.pt.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Türkçe](README.tr.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · **Русский**
-
-</div>
-
-## 🍌 Введение
+> [!NOTE]
+> Текущие исполняемые API-сниппеты все еще используют стабильный путь Seedance 2 API, пока разворачивается Seedance 2.5 early access. Не заменяйте проверенные `seedance-2.0-*` model IDs непроверенными 2.5 IDs.
 
 Seedance 2.5 early access открыт через EvoLink. Этот репозиторий превращает официальные launch-материалы в GitHub-native гайд для креаторов, разработчиков и AI video teams.
 
 Гайд охватывает 36 официальных медиа: launch demos, showcase works, narrative control, multilingual expression и controllable editing. Все это официальные кейсы, поэтому в отдельных блоках нет автора или source line.
 
-[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Получить API key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Текущие примеры Seedance API](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
-
-> [!NOTE]
-> Текущие исполняемые API-сниппеты все еще используют стабильный путь Seedance 2 API, пока разворачивается Seedance 2.5 early access. Не заменяйте проверенные `seedance-2.0-*` model IDs непроверенными 2.5 IDs.
-
-## 📑 Меню
-
-- Введение
-- Быстрый старт
-- Исходный гайд Seedance 2
-- Официальный гайд Seedance 2.5
-- Структура репозитория
-- Благодарности
-
-## 🚀 Быстрый старт
-
-Используйте репозиторий, чтобы изучить официальные 2.5 examples, копировать prompt structures и присоединиться к 2.5 rollout.
-
-> [!NOTE]
-> Этот быстрый старт намеренно сохраняет проверенный `seedance-2.0-text-to-video` model ID и текущий путь Seedance 2 API. Seedance 2.5 API access разворачивается через early access; не заменяйте рабочий 2.0 model ID непроверенным 2.5 model ID.
-
-```bash
-export EVOLINK_API_KEY="your_key_here"
-
-curl --request POST \
-  --url https://api.evolink.ai/v1/videos/generations \
-  --header "Authorization: Bearer ${EVOLINK_API_KEY}" \
-  --header 'Content-Type: application/json' \
-  --data '{
-    "model": "seedance-2.0-text-to-video",
-    "prompt": "A cinematic product reveal, slow dolly-in, reflective glass table, premium commercial lighting",
-    "duration": 5,
-    "quality": "720p",
-    "aspect_ratio": "16:9",
-    "generate_audio": true
-  }'
-```
-
-## 🧭 Исходный гайд Seedance 2
-
-Новый официальный гайд Seedance 2.5 размещен первым. Исходный гайд Seedance 2 сохранен как jump target для текущего API path, use-case writing patterns и multimodal workflow notes.
-
-- [Открыть исходный индекс Seedance 2](use-cases/README.md)
-- [Английские Seedance 2 use cases](use-cases/en/README.md)
-- [Seedance 2 use cases на упрощенном китайском](use-cases/zh-CN/README.md)
-- [Seedance 2 use cases на традиционном китайском](use-cases/zh-TW/README.md)
-- [Текущие примеры Seedance API](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
-
-## 🎬 Официальный гайд Seedance 2.5
+[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Текущие примеры Seedance API](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
 ## Видео над сгибом
 
 ### Case 1: Видео над сгибом 1
 
-[![Видео над сгибом 1](assets/thumbnails/01-hero-demo-1-official-launch-film-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4)
+[![Видео над сгибом 1](../../assets/thumbnails/01-hero-demo-1-official-launch-film-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -91,7 +33,7 @@ curl --request POST \
 
 ### Case 2: Видео над сгибом 2
 
-[![Видео над сгибом 2](assets/thumbnails/02-hero-demo-2-official-launch-film-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4)
+[![Видео над сгибом 2](../../assets/thumbnails/02-hero-demo-2-official-launch-film-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -115,7 +57,7 @@ curl --request POST \
 
 ### Case 3: Видео над сгибом 3
 
-[![Видео над сгибом 3](assets/thumbnails/03-hero-demo-3-official-launch-film-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4)
+[![Видео над сгибом 3](../../assets/thumbnails/03-hero-demo-3-official-launch-film-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -139,7 +81,7 @@ curl --request POST \
 
 ### Case 4: визуальные эффекты 1
 
-[![визуальные эффекты 1](assets/thumbnails/04-official-showcase-4-visual-effects.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4)
+[![визуальные эффекты 1](../../assets/thumbnails/04-official-showcase-4-visual-effects.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -164,7 +106,7 @@ curl --request POST \
 
 ### Case 5: Фильм 2
 
-[![Фильм 2](assets/thumbnails/05-official-showcase-5-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4)
+[![Фильм 2](../../assets/thumbnails/05-official-showcase-5-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -185,7 +127,7 @@ curl --request POST \
 
 ### Case 6: Постпродакшн эффекты 3
 
-[![Постпродакшн эффекты 3](assets/thumbnails/06-official-showcase-6-post-production-vfx.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4)
+[![Постпродакшн эффекты 3](../../assets/thumbnails/06-official-showcase-6-post-production-vfx.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -199,7 +141,7 @@ curl --request POST \
 
 ### Case 7: Фильм 4
 
-[![Фильм 4](assets/thumbnails/07-official-showcase-7-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4)
+[![Фильм 4](../../assets/thumbnails/07-official-showcase-7-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -213,7 +155,7 @@ curl --request POST \
 
 ### Case 8: Реклама 5
 
-[![Реклама 5](assets/thumbnails/08-official-showcase-8-advertising.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4)
+[![Реклама 5](../../assets/thumbnails/08-official-showcase-8-advertising.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -229,7 +171,7 @@ curl --request POST \
 
 ### Case 9: Фильм 6
 
-[![Фильм 6](assets/thumbnails/09-official-showcase-9-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4)
+[![Фильм 6](../../assets/thumbnails/09-official-showcase-9-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -243,7 +185,7 @@ curl --request POST \
 
 ### Case 10: Игра 7
 
-[![Игра 7](assets/thumbnails/10-official-showcase-10-game-trailer.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4)
+[![Игра 7](../../assets/thumbnails/10-official-showcase-10-game-trailer.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -299,7 +241,7 @@ curl --request POST \
 
 ### Case 11: Кино и ТВ 8
 
-[![Кино и ТВ 8](assets/thumbnails/11-official-showcase-11-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4)
+[![Кино и ТВ 8](../../assets/thumbnails/11-official-showcase-11-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -313,7 +255,7 @@ curl --request POST \
 
 ### Case 12: Научно-популярная часть 9
 
-[![Научно-популярная часть 9](assets/thumbnails/12-official-showcase-12-educational-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4)
+[![Научно-популярная часть 9](../../assets/thumbnails/12-official-showcase-12-educational-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -345,7 +287,7 @@ curl --request POST \
 
 ### Case 13: Прорыв границ повествования – 30 секунд непрерывности – выход – 1
 
-[![Прорыв границ повествования – 30 секунд непрерывности – выход – 1](assets/thumbnails/13-narrative-control-13-30-second-continuous-output-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4)
+[![Прорыв границ повествования – 30 секунд непрерывности – выход – 1](../../assets/thumbnails/13-narrative-control-13-30-second-continuous-output-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -371,7 +313,7 @@ curl --request POST \
 
 ### Case 14: Прорыв границ повествования – 30 секунд непрерывности – выход – 2
 
-[![Прорыв границ повествования – 30 секунд непрерывности – выход – 2](assets/thumbnails/14-narrative-control-14-30-second-continuous-output-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4)
+[![Прорыв границ повествования – 30 секунд непрерывности – выход – 2](../../assets/thumbnails/14-narrative-control-14-30-second-continuous-output-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -396,7 +338,7 @@ curl --request POST \
 
 ### Case 15: Прорыв границ повествования – 30 секунд непрерывности – выход – 3
 
-[![Прорыв границ повествования – 30 секунд непрерывности – выход – 3](assets/thumbnails/15-narrative-control-15-30-second-continuous-output-group-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4)
+[![Прорыв границ повествования – 30 секунд непрерывности – выход – 3](../../assets/thumbnails/15-narrative-control-15-30-second-continuous-output-group-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -435,7 +377,7 @@ curl --request POST \
 
 ### Case 16: Раздвигая границы повествования: больше ссылок, ввод-вывод-1
 
-[![Раздвигая границы повествования: больше ссылок, ввод-вывод-1](assets/thumbnails/16-narrative-control-16-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4)
+[![Раздвигая границы повествования: больше ссылок, ввод-вывод-1](../../assets/thumbnails/16-narrative-control-16-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -464,7 +406,7 @@ curl --request POST \
 
 ### Case 17: Нарушая границы повествования — больше ссылок — эталонное видео 1 1
 
-[![Нарушая границы повествования — больше ссылок — эталонное видео 1 1](assets/thumbnails/17-reference-asset-17-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4)
+[![Нарушая границы повествования — больше ссылок — эталонное видео 1 1](../../assets/thumbnails/17-reference-asset-17-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -493,7 +435,7 @@ curl --request POST \
 
 ### Case 18: Нарушая границы повествования – больше ссылок – вводное видео – 1–2
 
-[![Нарушая границы повествования – больше ссылок – вводное видео – 1–2](assets/thumbnails/18-reference-asset-18-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4)
+[![Нарушая границы повествования – больше ссылок – вводное видео – 1–2](../../assets/thumbnails/18-reference-asset-18-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -522,7 +464,7 @@ curl --request POST \
 
 ### Case 19: Нарушая границы повествования — больше ссылок — эталонное видео 1 – 6
 
-[![Нарушая границы повествования — больше ссылок — эталонное видео 1 – 6](assets/thumbnails/19-reference-asset-19-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4)
+[![Нарушая границы повествования — больше ссылок — эталонное видео 1 – 6](../../assets/thumbnails/19-reference-asset-19-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -551,7 +493,7 @@ curl --request POST \
 
 ### Case 20: Раздвигая границы повествования: больше ссылок, ввод-вывод-2
 
-[![Раздвигая границы повествования: больше ссылок, ввод-вывод-2](assets/thumbnails/20-narrative-control-20-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4)
+[![Раздвигая границы повествования: больше ссылок, ввод-вывод-2](../../assets/thumbnails/20-narrative-control-20-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -570,7 +512,7 @@ curl --request POST \
 
 ### Case 21: Нарушая границы повествования — больше ссылок — вводное видео — 2-2
 
-[![Нарушая границы повествования — больше ссылок — вводное видео — 2-2](assets/thumbnails/21-reference-asset-21-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4)
+[![Нарушая границы повествования — больше ссылок — вводное видео — 2-2](../../assets/thumbnails/21-reference-asset-21-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -589,7 +531,7 @@ curl --request POST \
 
 ### Case 22: Нарушая границы повествования — больше ссылок — эталонное видео 2-3
 
-[![Нарушая границы повествования — больше ссылок — эталонное видео 2-3](assets/thumbnails/22-reference-asset-22-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4)
+[![Нарушая границы повествования — больше ссылок — эталонное видео 2-3](../../assets/thumbnails/22-reference-asset-22-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -608,7 +550,7 @@ curl --request POST \
 
 ### Case 23: Нарушая границы повествования – больше ссылок – вводное видео – 2–4
 
-[![Нарушая границы повествования – больше ссылок – вводное видео – 2–4](assets/thumbnails/23-reference-asset-23-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4)
+[![Нарушая границы повествования – больше ссылок – вводное видео – 2–4](../../assets/thumbnails/23-reference-asset-23-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -627,7 +569,7 @@ curl --request POST \
 
 ### Case 24: Нарушая границы повествования — больше ссылок — эталонное видео 2 – 5
 
-[![Нарушая границы повествования — больше ссылок — эталонное видео 2 – 5](assets/thumbnails/24-reference-asset-24-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4)
+[![Нарушая границы повествования — больше ссылок — эталонное видео 2 – 5](../../assets/thumbnails/24-reference-asset-24-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -646,7 +588,7 @@ curl --request POST \
 
 ### Case 25: Нарушая границы повествования – больше ссылок – вводное видео – 2–6
 
-[![Нарушая границы повествования – больше ссылок – вводное видео – 2–6](assets/thumbnails/25-reference-asset-25-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4)
+[![Нарушая границы повествования – больше ссылок – вводное видео – 2–6](../../assets/thumbnails/25-reference-asset-25-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -665,7 +607,7 @@ curl --request POST \
 
 ### Case 26: Нарушая границы повествования – больше ссылок – вводное видео – 2–7
 
-[![Нарушая границы повествования – больше ссылок – вводное видео – 2–7](assets/thumbnails/26-reference-asset-26-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4)
+[![Нарушая границы повествования – больше ссылок – вводное видео – 2–7](../../assets/thumbnails/26-reference-asset-26-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -684,7 +626,7 @@ curl --request POST \
 
 ### Case 27: Прорывая границы повествования второго уровня экрана control-output-1
 
-[![Прорывая границы повествования второго уровня экрана control-output-1](assets/thumbnails/27-narrative-control-27-second-level-frame-control-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4)
+[![Прорывая границы повествования второго уровня экрана control-output-1](../../assets/thumbnails/27-narrative-control-27-second-level-frame-control-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -722,7 +664,7 @@ curl --request POST \
 
 ### Case 28: Разрыв границ повествования второго уровня экрана control-output-2
 
-[![Разрыв границ повествования второго уровня экрана control-output-2](assets/thumbnails/28-narrative-control-28-second-level-frame-control-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4)
+[![Разрыв границ повествования второго уровня экрана control-output-2](../../assets/thumbnails/28-narrative-control-28-second-level-frame-control-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -757,7 +699,7 @@ curl --request POST \
 
 ### Case 29: Развернуть многоязычную презентацию-многоязычное выражение-выход-1
 
-[![Развернуть многоязычную презентацию-многоязычное выражение-выход-1](assets/thumbnails/29-multilingual-expression-29-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4)
+[![Развернуть многоязычную презентацию-многоязычное выражение-выход-1](../../assets/thumbnails/29-multilingual-expression-29-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -788,7 +730,7 @@ curl --request POST \
 
 ### Case 30: Развернуть многоязычную презентацию-многоязычное выражение-выход-2
 
-[![Развернуть многоязычную презентацию-многоязычное выражение-выход-2](assets/thumbnails/30-multilingual-expression-30-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4)
+[![Развернуть многоязычную презентацию-многоязычное выражение-выход-2](../../assets/thumbnails/30-multilingual-expression-30-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -822,7 +764,7 @@ curl --request POST \
 
 ### Case 31: Выход контролируемого редактирования 1
 
-[![Выход контролируемого редактирования 1](assets/thumbnails/31-controllable-editing-31-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4)
+[![Выход контролируемого редактирования 1](../../assets/thumbnails/31-controllable-editing-31-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -842,7 +784,7 @@ curl --request POST \
 
 ### Case 32: Контролируемое редактирование: 1 ссылка
 
-[![Контролируемое редактирование: 1 ссылка](assets/thumbnails/32-controllable-editing-32-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4)
+[![Контролируемое редактирование: 1 ссылка](../../assets/thumbnails/32-controllable-editing-32-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -862,7 +804,7 @@ curl --request POST \
 
 ### Case 33: Выход контролируемого редактирования 2
 
-[![Выход контролируемого редактирования 2](assets/thumbnails/33-controllable-editing-33-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4)
+[![Выход контролируемого редактирования 2](../../assets/thumbnails/33-controllable-editing-33-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -882,7 +824,7 @@ curl --request POST \
 
 ### Case 34: Контролируемое редактирование 2. Справочник
 
-[![Контролируемое редактирование 2. Справочник](assets/thumbnails/34-controllable-editing-34-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4)
+[![Контролируемое редактирование 2. Справочник](../../assets/thumbnails/34-controllable-editing-34-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -902,7 +844,7 @@ curl --request POST \
 
 ### Case 35: Выход контролируемого редактирования 3
 
-[![Выход контролируемого редактирования 3](assets/thumbnails/35-controllable-editing-35-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4)
+[![Выход контролируемого редактирования 3](../../assets/thumbnails/35-controllable-editing-35-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -924,7 +866,7 @@ curl --request POST \
 
 ### Case 36: Контролируемое редактирование 3. Справочник
 
-[![Контролируемое редактирование 3. Справочник](assets/thumbnails/36-controllable-editing-36-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4)
+[![Контролируемое редактирование 3. Справочник](../../assets/thumbnails/36-controllable-editing-36-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4)
 
 [Воспроизвести видео](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4) · Нажмите на миниатюру, чтобы воспроизвести видео.
 
@@ -943,34 +885,3 @@ curl --request POST \
 > Этот официальный кейс также включает референсные материалы, перечисленные в manifest.
 
 ---
-
-## 📁 Структура репозитория
-
-```text
-.
-├── README.md
-├── README.<lang>.md
-├── assets/
-│   ├── banner.png
-│   └── thumbnails/
-├── data/
-│   ├── seedance-2-5-manifest.json
-│   └── seedance-2-5-prompt-translations.json
-└── use-cases/
-    ├── README.md
-    ├── en/
-    │   ├── README.md
-    │   ├── 01-consistency.md
-    │   └── official-seedance-2-5-guide.md
-    └── <lang>/
-        ├── README.md
-        └── official-seedance-2-5-guide.md
-```
-
-## 🙏 Благодарности
-
-Репозиторий поддерживается EvoLink как публичный гайд для Seedance 2.5 early access.
-
-- Official early access: [Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
-- Current API key path: [EvoLink signup](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
-- Current API examples: [Seedance 2.5 Gateway Service](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)

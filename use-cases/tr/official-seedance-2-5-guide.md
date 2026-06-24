@@ -1,79 +1,21 @@
-<div align="center">
-
-<a href="https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedance-2.5-guide"><img src="assets/banner.png" alt="Seedance 2.5 Early Access guide" width="100%"></a>
-
 # Seedance 2.5 Resmi Rehberi
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Get Seedance 2.5 Early Access](https://img.shields.io/badge/Get_Seedance_2.5-Early_Access-black)](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
-[![Official Guide](https://img.shields.io/badge/Official_Guide-36_Media_Assets-7C3AED)](data/seedance-2-5-manifest.json)
-[![API Key](https://img.shields.io/badge/API_Key-EvoLink-orange)](https://evolink.ai/signup?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
+[Repository README’ye dön](../../README.tr.md) · [Orijinal Seedance 2 indeksine dön](../README.md)
 
-[English](README.md) · [Español](README.es.md) · [Português](README.pt.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · **Türkçe** · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [Русский](README.ru.md)
-
-</div>
-
-## 🍌 Giriş
+> [!NOTE]
+> Çalıştırılabilir API snippetleri, Seedance 2.5 early access rollout sırasında hâlâ kararlı Seedance 2 API yolunu kullanır. Doğrulanmış `seedance-2.0-*` model IDlerini doğrulanmamış 2.5 IDleriyle değiştirmeyin.
 
 Seedance 2.5 early access EvoLink üzerinden açıldı. Bu repo resmi lansman materyallerini creatorlar, geliştiriciler ve AI video ekipleri için GitHub-native bir rehbere dönüştürür.
 
 Rehber; lansman demoları, showcase işleri, narrative control, çok dilli ifade ve kontrol edilebilir editing boyunca 36 resmi medya varlığını kapsar. Tümü resmi case olduğu için case bloklarında ayrı creator veya source satırı yoktur.
 
-[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [API anahtarı al](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Güncel Seedance API örnekleri](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
-
-> [!NOTE]
-> Çalıştırılabilir API snippetleri, Seedance 2.5 early access rollout sırasında hâlâ kararlı Seedance 2 API yolunu kullanır. Doğrulanmış `seedance-2.0-*` model IDlerini doğrulanmamış 2.5 IDleriyle değiştirmeyin.
-
-## 📑 Menü
-
-- Giriş
-- Hızlı Başlangıç
-- Orijinal Seedance 2 Rehberi
-- Seedance 2.5 Resmi Rehberi
-- Depo Yapısı
-- Teşekkür
-
-## 🚀 Hızlı Başlangıç
-
-Resmi 2.5 örneklerini incelemek, prompt yapılarını kopyalamak ve 2.5 rollout’a katılmak için kullanın.
-
-> [!NOTE]
-> Bu hızlı başlangıç, doğrulanmış `seedance-2.0-text-to-video` model ID ve güncel Seedance 2 API yolunu bilinçli olarak korur. Seedance 2.5 API access early access ile geliyor; çalışır 2.0 model ID yerine doğrulanmamış 2.5 ID kullanmayın.
-
-```bash
-export EVOLINK_API_KEY="your_key_here"
-
-curl --request POST \
-  --url https://api.evolink.ai/v1/videos/generations \
-  --header "Authorization: Bearer ${EVOLINK_API_KEY}" \
-  --header 'Content-Type: application/json' \
-  --data '{
-    "model": "seedance-2.0-text-to-video",
-    "prompt": "A cinematic product reveal, slow dolly-in, reflective glass table, premium commercial lighting",
-    "duration": 5,
-    "quality": "720p",
-    "aspect_ratio": "16:9",
-    "generate_audio": true
-  }'
-```
-
-## 🧭 Orijinal Seedance 2 Rehberi
-
-Yeni Seedance 2.5 resmi rehberi en başa yerleştirildi. Orijinal Seedance 2 rehberi mevcut API yolu, use-case yazım kalıpları ve multimodal workflow notları için jump target olarak korunuyor.
-
-- [Orijinal Seedance 2 rehber indeksini aç](use-cases/README.md)
-- [İngilizce Seedance 2 use case’leri](use-cases/en/README.md)
-- [Basitleştirilmiş Çince Seedance 2 use case’leri](use-cases/zh-CN/README.md)
-- [Geleneksel Çince Seedance 2 use case’leri](use-cases/zh-TW/README.md)
-- [Güncel Seedance API örnekleri](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
-
-## 🎬 Seedance 2.5 Resmi Rehberi
+[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Güncel Seedance API örnekleri](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
 ## Ekranın üst kısmındaki video
 
 ### Case 1: Ekranın üst kısmındaki video 1
 
-[![Ekranın üst kısmındaki video 1](assets/thumbnails/01-hero-demo-1-official-launch-film-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4)
+[![Ekranın üst kısmındaki video 1](../../assets/thumbnails/01-hero-demo-1-official-launch-film-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -91,7 +33,7 @@ Teknik özellikler: Hiper gerçekçi mekanik dokular, zengin pirinç ve altın t
 
 ### Case 2: Ekranın üst kısmındaki video 2
 
-[![Ekranın üst kısmındaki video 2](assets/thumbnails/02-hero-demo-2-official-launch-film-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4)
+[![Ekranın üst kısmındaki video 2](../../assets/thumbnails/02-hero-demo-2-official-launch-film-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -115,7 +57,7 @@ Dinamik BGM ritim düzenlemeyi (sıkışmış geçiş), birinci sınıf sinemati
 
 ### Case 3: Ekranın üst kısmındaki video 3
 
-[![Ekranın üst kısmındaki video 3](assets/thumbnails/03-hero-demo-3-official-launch-film-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4)
+[![Ekranın üst kısmındaki video 3](../../assets/thumbnails/03-hero-demo-3-official-launch-film-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -139,7 +81,7 @@ Ekran insan gözünün yakın çekiminde kalıyor, ardından gözler kapatılıy
 
 ### Case 4: görsel efektler 1
 
-[![görsel efektler 1](assets/thumbnails/04-official-showcase-4-visual-effects.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4)
+[![görsel efektler 1](../../assets/thumbnails/04-official-showcase-4-visual-effects.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -164,7 +106,7 @@ Ekran insan gözünün yakın çekiminde kalıyor, ardından gözler kapatılıy
 
 ### Case 5: Film 2
 
-[![Film 2](assets/thumbnails/05-official-showcase-5-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4)
+[![Film 2](../../assets/thumbnails/05-official-showcase-5-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -185,7 +127,7 @@ Kameranın ritmi yavaşlar ve son derece güzel ağır çekime (Ağır çekim) g
 
 ### Case 6: Prodüksiyon sonrası etkiler 3
 
-[![Prodüksiyon sonrası etkiler 3](assets/thumbnails/06-official-showcase-6-post-production-vfx.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4)
+[![Prodüksiyon sonrası etkiler 3](../../assets/thumbnails/06-official-showcase-6-post-production-vfx.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -199,7 +141,7 @@ Dal mercanları, beyin mercanları, disk mercanları ve yumuşak deniz yelpaze m
 
 ### Case 7: Film 4
 
-[![Film 4](assets/thumbnails/07-official-showcase-7-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4)
+[![Film 4](../../assets/thumbnails/07-official-showcase-7-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -213,7 +155,7 @@ Sinematik doku, üst düzey his, sabahları altın rengi çöl, kum tepelerinin 
 
 ### Case 8: Reklamcılık 5
 
-[![Reklamcılık 5](assets/thumbnails/08-official-showcase-8-advertising.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4)
+[![Reklamcılık 5](../../assets/thumbnails/08-official-showcase-8-advertising.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -229,7 +171,7 @@ Kısa filmin doruk noktasında, kamera dramatik bir şekilde uzaklaşarak 'dörd
 
 ### Case 9: Film 6
 
-[![Film 6](assets/thumbnails/09-official-showcase-9-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4)
+[![Film 6](../../assets/thumbnails/09-official-showcase-9-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -243,7 +185,7 @@ Pekin Operası'nın somut olmayan kültürel miras kısa filmi, sinema hissi, or
 
 ### Case 10: Oyun 7
 
-[![Oyun 7](assets/thumbnails/10-official-showcase-10-game-trailer.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4)
+[![Oyun 7](../../assets/thumbnails/10-official-showcase-10-game-trailer.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -299,7 +241,7 @@ Epik bilim kurgu estetiği / Kumul rüzgarı ve kumdan deniz medeniyet yapısı 
 
 ### Case 11: Film ve TV 8
 
-[![Film ve TV 8](assets/thumbnails/11-official-showcase-11-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4)
+[![Film ve TV 8](../../assets/thumbnails/11-official-showcase-11-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -313,7 +255,7 @@ Tema "Mekanik Çiçek Açıyor". Resmin, oluşturulan video modelinin ışık ve
 
 ### Case 12: Popüler Bilim 9
 
-[![Popüler Bilim 9](assets/thumbnails/12-official-showcase-12-educational-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4)
+[![Popüler Bilim 9](../../assets/thumbnails/12-official-showcase-12-educational-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -345,7 +287,7 @@ Arka plandaki antik yol desenleri, zamanın bu bardak meyve suyunda birleşmesi 
 
 ### Case 13: Anlatımın sınırlarını aşmak - 30 saniyelik süreklilik - çıktı - 1
 
-[![Anlatımın sınırlarını aşmak - 30 saniyelik süreklilik - çıktı - 1](assets/thumbnails/13-narrative-control-13-30-second-continuous-output-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4)
+[![Anlatımın sınırlarını aşmak - 30 saniyelik süreklilik - çıktı - 1](../../assets/thumbnails/13-narrative-control-13-30-second-continuous-output-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -371,7 +313,7 @@ Genel film kalitesi üst düzey moda reklam stilidir. Işık tamamen pencerenin 
 
 ### Case 14: Anlatımın sınırlarını aşmak - 30 saniyelik süreklilik - çıktı - 2
 
-[![Anlatımın sınırlarını aşmak - 30 saniyelik süreklilik - çıktı - 2](assets/thumbnails/14-narrative-control-14-30-second-continuous-output-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4)
+[![Anlatımın sınırlarını aşmak - 30 saniyelik süreklilik - çıktı - 2](../../assets/thumbnails/14-narrative-control-14-30-second-continuous-output-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -396,7 +338,7 @@ Sonunda top modern bir stadyumun merkezinde bulunuyor ve dünyanın her yerinden
 
 ### Case 15: Anlatımın sınırlarını aşmak - 30 saniyelik süreklilik - çıktı - 3
 
-[![Anlatımın sınırlarını aşmak - 30 saniyelik süreklilik - çıktı - 3](assets/thumbnails/15-narrative-control-15-30-second-continuous-output-group-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4)
+[![Anlatımın sınırlarını aşmak - 30 saniyelik süreklilik - çıktı - 3](../../assets/thumbnails/15-narrative-control-15-30-second-continuous-output-group-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -433,7 +375,7 @@ Anlatıcı: "Son adım, ilk kez durulamadır. Kapsülü yerleştirmenize gerek y
 
 ### Case 16: Anlatı Sınırlarını Zorlamak-Daha Fazla Referans Girdi-Çıktı-1
 
-[![Anlatı Sınırlarını Zorlamak-Daha Fazla Referans Girdi-Çıktı-1](assets/thumbnails/16-narrative-control-16-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4)
+[![Anlatı Sınırlarını Zorlamak-Daha Fazla Referans Girdi-Çıktı-1](../../assets/thumbnails/16-narrative-control-16-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -462,7 +404,7 @@ Bölümlere ayrılmış kamera hareketi ve sahne açıklaması:
 
 ### Case 17: Anlatımın sınırlarını yıkmak-daha fazla referans girişi-referans videosu-1-1
 
-[![Anlatımın sınırlarını yıkmak-daha fazla referans girişi-referans videosu-1-1](assets/thumbnails/17-reference-asset-17-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4)
+[![Anlatımın sınırlarını yıkmak-daha fazla referans girişi-referans videosu-1-1](../../assets/thumbnails/17-reference-asset-17-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -491,7 +433,7 @@ Bölümlere ayrılmış kamera hareketi ve sahne açıklaması:
 
 ### Case 18: Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-1-2
 
-[![Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-1-2](assets/thumbnails/18-reference-asset-18-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4)
+[![Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-1-2](../../assets/thumbnails/18-reference-asset-18-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -520,7 +462,7 @@ Bölümlere ayrılmış kamera hareketi ve sahne açıklaması:
 
 ### Case 19: Anlatımın sınırlarını yıkmak-daha fazla referans girişi-referans videosu-1-6
 
-[![Anlatımın sınırlarını yıkmak-daha fazla referans girişi-referans videosu-1-6](assets/thumbnails/19-reference-asset-19-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4)
+[![Anlatımın sınırlarını yıkmak-daha fazla referans girişi-referans videosu-1-6](../../assets/thumbnails/19-reference-asset-19-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -549,7 +491,7 @@ Bölümlere ayrılmış kamera hareketi ve sahne açıklaması:
 
 ### Case 20: Anlatı Sınırlarını Zorlamak-Daha Fazla Referans Girdi-Çıktı-2
 
-[![Anlatı Sınırlarını Zorlamak-Daha Fazla Referans Girdi-Çıktı-2](assets/thumbnails/20-narrative-control-20-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4)
+[![Anlatı Sınırlarını Zorlamak-Daha Fazla Referans Girdi-Çıktı-2](../../assets/thumbnails/20-narrative-control-20-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -568,7 +510,7 @@ Reklamın tarzı parlak ve renklidir; başrolde meyveli bisküviler yer alır ve
 
 ### Case 21: Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-2
 
-[![Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-2](assets/thumbnails/21-reference-asset-21-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4)
+[![Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-2](../../assets/thumbnails/21-reference-asset-21-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -587,7 +529,7 @@ Reklamın tarzı parlak ve renklidir; başrolde meyveli bisküviler yer alır ve
 
 ### Case 22: Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-3
 
-[![Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-3](assets/thumbnails/22-reference-asset-22-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4)
+[![Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-3](../../assets/thumbnails/22-reference-asset-22-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -606,7 +548,7 @@ Reklamın tarzı parlak ve renklidir; başrolde meyveli bisküviler yer alır ve
 
 ### Case 23: Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-4
 
-[![Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-4](assets/thumbnails/23-reference-asset-23-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4)
+[![Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-4](../../assets/thumbnails/23-reference-asset-23-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -625,7 +567,7 @@ Reklamın tarzı parlak ve renklidir; başrolde meyveli bisküviler yer alır ve
 
 ### Case 24: Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-5
 
-[![Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-5](assets/thumbnails/24-reference-asset-24-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4)
+[![Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-5](../../assets/thumbnails/24-reference-asset-24-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -644,7 +586,7 @@ Reklamın tarzı parlak ve renklidir; başrolde meyveli bisküviler yer alır ve
 
 ### Case 25: Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-6
 
-[![Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-6](assets/thumbnails/25-reference-asset-25-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4)
+[![Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-6](../../assets/thumbnails/25-reference-asset-25-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -663,7 +605,7 @@ Reklamın tarzı parlak ve renklidir; başrolde meyveli bisküviler yer alır ve
 
 ### Case 26: Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-7
 
-[![Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-7](assets/thumbnails/26-reference-asset-26-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4)
+[![Anlatımın sınırlarını aşmak-daha fazla referans girişi-referans videosu-2-7](../../assets/thumbnails/26-reference-asset-26-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -682,7 +624,7 @@ Reklamın tarzı parlak ve renklidir; başrolde meyveli bisküviler yer alır ve
 
 ### Case 27: Anlatı-ikinci seviye ekran kontrolü-çıkış-1'in sınırlarını aşmak
 
-[![Anlatı-ikinci seviye ekran kontrolü-çıkış-1'in sınırlarını aşmak](assets/thumbnails/27-narrative-control-27-second-level-frame-control-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4)
+[![Anlatı-ikinci seviye ekran kontrolü-çıkış-1'in sınırlarını aşmak](../../assets/thumbnails/27-narrative-control-27-second-level-frame-control-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -720,7 +662,7 @@ Altyazılar çok fazla kelime eklemeden yalnızca marka adını koruyabilir.
 
 ### Case 28: Anlatı-ikinci düzey ekran kontrolü-çıkış-2'nin sınırlarını aşıyor
 
-[![Anlatı-ikinci düzey ekran kontrolü-çıkış-2'nin sınırlarını aşıyor](assets/thumbnails/28-narrative-control-28-second-level-frame-control-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4)
+[![Anlatı-ikinci düzey ekran kontrolü-çıkış-2'nin sınırlarını aşıyor](../../assets/thumbnails/28-narrative-control-28-second-level-frame-control-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -755,7 +697,7 @@ Kamera, ağır çekimde panoramik yakın çekim için havada lokomotifin etrafı
 
 ### Case 29: Çok dilli sunumu genişletin-çok dilli ifade-çıktı-1
 
-[![Çok dilli sunumu genişletin-çok dilli ifade-çıktı-1](assets/thumbnails/29-multilingual-expression-29-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4)
+[![Çok dilli sunumu genişletin-çok dilli ifade-çıktı-1](../../assets/thumbnails/29-multilingual-expression-29-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -786,7 +728,7 @@ Genel atmosfer, altın renkli arka ışık, yumuşak hacimsel ışık, gerçek b
 
 ### Case 30: Çok dilli sunumu genişletin-çok dilli ifade-çıktı-2
 
-[![Çok dilli sunumu genişletin-çok dilli ifade-çıktı-2](assets/thumbnails/30-multilingual-expression-30-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4)
+[![Çok dilli sunumu genişletin-çok dilli ifade-çıktı-2](../../assets/thumbnails/30-multilingual-expression-30-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -820,7 +762,7 @@ Sahne 9<<<image_9_9>>>Kore sokakları, modern kent hissi. Genç kadın bir açel
 
 ### Case 31: Kontrollü Düzenleme 1 Çıkışı
 
-[![Kontrollü Düzenleme 1 Çıkışı](assets/thumbnails/31-controllable-editing-31-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4)
+[![Kontrollü Düzenleme 1 Çıkışı](../../assets/thumbnails/31-controllable-editing-31-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -840,7 +782,7 @@ Karakterin elinde yavaşça mavi-beyaz bir enerji yayı ve parlak bir ok<<<image
 
 ### Case 32: Kontrollü Düzenleme 1 Referans
 
-[![Kontrollü Düzenleme 1 Referans](assets/thumbnails/32-controllable-editing-32-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4)
+[![Kontrollü Düzenleme 1 Referans](../../assets/thumbnails/32-controllable-editing-32-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -860,7 +802,7 @@ Karakterin elinde yavaşça mavi-beyaz bir enerji yayı ve parlak bir ok<<<image
 
 ### Case 33: Kontrollü Düzenleme 2 Çıkışı
 
-[![Kontrollü Düzenleme 2 Çıkışı](assets/thumbnails/33-controllable-editing-33-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4)
+[![Kontrollü Düzenleme 2 Çıkışı](../../assets/thumbnails/33-controllable-editing-33-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -880,7 +822,7 @@ Zürafa grubunu, ağaç dallarını, uzaktaki otlakları, altın rengi gün bat�
 
 ### Case 34: Kontrollü Düzenleme 2 Referansı
 
-[![Kontrollü Düzenleme 2 Referansı](assets/thumbnails/34-controllable-editing-34-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4)
+[![Kontrollü Düzenleme 2 Referansı](../../assets/thumbnails/34-controllable-editing-34-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -900,7 +842,7 @@ Zürafa grubunu, ağaç dallarını, uzaktaki otlakları, altın rengi gün bat�
 
 ### Case 35: Kontrollü Düzenleme 3 Çıkışı
 
-[![Kontrollü Düzenleme 3 Çıkışı](assets/thumbnails/35-controllable-editing-35-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4)
+[![Kontrollü Düzenleme 3 Çıkışı](../../assets/thumbnails/35-controllable-editing-35-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -922,7 +864,7 @@ Yapay zeka özel efektleri yalnızca çevreyi ve dokuyu iyileştirir: rüzgarla 
 
 ### Case 36: Kontrollü Düzenleme 3 Referansı
 
-[![Kontrollü Düzenleme 3 Referansı](assets/thumbnails/36-controllable-editing-36-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4)
+[![Kontrollü Düzenleme 3 Referansı](../../assets/thumbnails/36-controllable-editing-36-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4)
 
 [Videoyu oynat](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4) · Videoyu oynatmak için küçük görsele tıklayın.
 
@@ -941,34 +883,3 @@ Yapay zeka özel efektleri yalnızca çevreyi ve dokuyu iyileştirir: rüzgarla 
 > Bu resmi case ayrıca manifest içinde listelenen referans varlıklarını içerir.
 
 ---
-
-## 📁 Depo Yapısı
-
-```text
-.
-├── README.md
-├── README.<lang>.md
-├── assets/
-│   ├── banner.png
-│   └── thumbnails/
-├── data/
-│   ├── seedance-2-5-manifest.json
-│   └── seedance-2-5-prompt-translations.json
-└── use-cases/
-    ├── README.md
-    ├── en/
-    │   ├── README.md
-    │   ├── 01-consistency.md
-    │   └── official-seedance-2-5-guide.md
-    └── <lang>/
-        ├── README.md
-        └── official-seedance-2-5-guide.md
-```
-
-## 🙏 Teşekkür
-
-Bu repo, Seedance 2.5 early access için public guide olarak EvoLink tarafından korunur.
-
-- Official early access: [Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
-- Current API key path: [EvoLink signup](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
-- Current API examples: [Seedance 2.5 Gateway Service](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)

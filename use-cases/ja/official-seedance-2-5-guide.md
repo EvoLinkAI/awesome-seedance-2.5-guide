@@ -1,79 +1,21 @@
-<div align="center">
-
-<a href="https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedance-2.5-guide"><img src="assets/banner.png" alt="Seedance 2.5 Early Access guide" width="100%"></a>
-
 # Seedance 2.5 公式ガイド
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Get Seedance 2.5 Early Access](https://img.shields.io/badge/Get_Seedance_2.5-Early_Access-black)](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
-[![Official Guide](https://img.shields.io/badge/Official_Guide-36_Media_Assets-7C3AED)](data/seedance-2-5-manifest.json)
-[![API Key](https://img.shields.io/badge/API_Key-EvoLink-orange)](https://evolink.ai/signup?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
+[リポジトリ README に戻る](../../README.ja.md) · [元の Seedance 2 ガイド索引に戻る](../README.md)
 
-[English](README.md) · [Español](README.es.md) · [Português](README.pt.md) · **日本語** · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Türkçe](README.tr.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [Русский](README.ru.md)
-
-</div>
-
-## 🍌 紹介
+> [!NOTE]
+> 現在実行できる API スニペットは、Seedance 2.5 early access の展開中も安定した Seedance 2 API パスを使っています。検証済みの `seedance-2.0-*` model ID を未検証の 2.5 ID に置き換えないでください。
 
 Seedance 2.5 early access は EvoLink で公開されています。このリポジトリは公式ローンチ素材を、クリエイター、開発者、AI 動画チーム向けの GitHub ネイティブなガイドに整理します。
 
 このガイドは、ローンチデモ、ショーケース、ナラティブ制御、多言語表現、制御可能な編集にまたがる 36 個の公式メディアを扱います。すべて公式ケースのため、各ケースに作者やソース表記は入れていません。
 
-[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [API キーを取得](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [現在の Seedance API 例](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
-
-> [!NOTE]
-> 現在実行できる API スニペットは、Seedance 2.5 early access の展開中も安定した Seedance 2 API パスを使っています。検証済みの `seedance-2.0-*` model ID を未検証の 2.5 ID に置き換えないでください。
-
-## 📑 メニュー
-
-- 紹介
-- クイックスタート
-- 元の Seedance 2 ガイド
-- Seedance 2.5 公式ガイド
-- リポジトリ構成
-- 謝辞
-
-## 🚀 クイックスタート
-
-公式 2.5 例を確認し、プロンプト構造をコピーし、2.5 rollout に参加するために使えます。
-
-> [!NOTE]
-> このクイックスタートは、検証済みの `seedance-2.0-text-to-video` model ID と現在の Seedance 2 API パスを意図的に維持しています。Seedance 2.5 API access は early access として展開中です。未検証の 2.5 model ID へ置き換えないでください。
-
-```bash
-export EVOLINK_API_KEY="your_key_here"
-
-curl --request POST \
-  --url https://api.evolink.ai/v1/videos/generations \
-  --header "Authorization: Bearer ${EVOLINK_API_KEY}" \
-  --header 'Content-Type: application/json' \
-  --data '{
-    "model": "seedance-2.0-text-to-video",
-    "prompt": "A cinematic product reveal, slow dolly-in, reflective glass table, premium commercial lighting",
-    "duration": 5,
-    "quality": "720p",
-    "aspect_ratio": "16:9",
-    "generate_audio": true
-  }'
-```
-
-## 🧭 元の Seedance 2 ガイド
-
-新しい Seedance 2.5 公式ガイドを先頭に配置しています。元の Seedance 2 ガイドは、現在の API パス、ユースケース記述、マルチモーダル workflow の参照先としてそのまま残しています。
-
-- [元の Seedance 2 ガイド索引を開く](use-cases/README.md)
-- [英語の Seedance 2 ユースケース](use-cases/en/README.md)
-- [簡体字中国語の Seedance 2 ユースケース](use-cases/zh-CN/README.md)
-- [繁体字中国語の Seedance 2 ユースケース](use-cases/zh-TW/README.md)
-- [現在の Seedance API 例](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
-
-## 🎬 Seedance 2.5 公式ガイド
+[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [現在の Seedance API 例](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
 ## スクロールせずに見える範囲のビデオ
 
 ### Case 1: スクロールせずに見える範囲のビデオ 1
 
-[![スクロールせずに見える範囲のビデオ 1](assets/thumbnails/01-hero-demo-1-official-launch-film-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4)
+[![スクロールせずに見える範囲のビデオ 1](../../assets/thumbnails/01-hero-demo-1-official-launch-film-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -91,7 +33,7 @@ curl --request POST \
 
 ### Case 2: スクロールせずに見える範囲のビデオ 2
 
-[![スクロールせずに見える範囲のビデオ 2](assets/thumbnails/02-hero-demo-2-official-launch-film-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4)
+[![スクロールせずに見える範囲のビデオ 2](../../assets/thumbnails/02-hero-demo-2-official-launch-film-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -115,7 +57,7 @@ curl --request POST \
 
 ### Case 3: スクロールせずに見える範囲のビデオ 3
 
-[![スクロールせずに見える範囲のビデオ 3](assets/thumbnails/03-hero-demo-3-official-launch-film-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4)
+[![スクロールせずに見える範囲のビデオ 3](../../assets/thumbnails/03-hero-demo-3-official-launch-film-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -139,7 +81,7 @@ curl --request POST \
 
 ### Case 4: 視覚効果 1
 
-[![視覚効果 1](assets/thumbnails/04-official-showcase-4-visual-effects.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4)
+[![視覚効果 1](../../assets/thumbnails/04-official-showcase-4-visual-effects.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -164,7 +106,7 @@ curl --request POST \
 
 ### Case 5: ムービー2
 
-[![ムービー2](assets/thumbnails/05-official-showcase-5-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4)
+[![ムービー2](../../assets/thumbnails/05-official-showcase-5-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -185,7 +127,7 @@ curl --request POST \
 
 ### Case 6: ポストプロダクションエフェクト 3
 
-[![ポストプロダクションエフェクト 3](assets/thumbnails/06-official-showcase-6-post-production-vfx.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4)
+[![ポストプロダクションエフェクト 3](../../assets/thumbnails/06-official-showcase-6-post-production-vfx.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -199,7 +141,7 @@ curl --request POST \
 
 ### Case 7: ムービー4
 
-[![ムービー4](assets/thumbnails/07-official-showcase-7-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4)
+[![ムービー4](../../assets/thumbnails/07-official-showcase-7-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -213,7 +155,7 @@ curl --request POST \
 
 ### Case 8: 広告5
 
-[![広告5](assets/thumbnails/08-official-showcase-8-advertising.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4)
+[![広告5](../../assets/thumbnails/08-official-showcase-8-advertising.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -229,7 +171,7 @@ curl --request POST \
 
 ### Case 9: ムービー6
 
-[![ムービー6](assets/thumbnails/09-official-showcase-9-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4)
+[![ムービー6](../../assets/thumbnails/09-official-showcase-9-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -243,7 +185,7 @@ curl --request POST \
 
 ### Case 10: 第7試合
 
-[![第7試合](assets/thumbnails/10-official-showcase-10-game-trailer.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4)
+[![第7試合](../../assets/thumbnails/10-official-showcase-10-game-trailer.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -299,7 +241,7 @@ curl --request POST \
 
 ### Case 11: 映画とテレビ 8
 
-[![映画とテレビ 8](assets/thumbnails/11-official-showcase-11-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4)
+[![映画とテレビ 8](../../assets/thumbnails/11-official-showcase-11-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -313,7 +255,7 @@ curl --request POST \
 
 ### Case 12: ポピュラーサイエンス 9
 
-[![ポピュラーサイエンス 9](assets/thumbnails/12-official-showcase-12-educational-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4)
+[![ポピュラーサイエンス 9](../../assets/thumbnails/12-official-showcase-12-educational-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -345,7 +287,7 @@ curl --request POST \
 
 ### Case 13: 物語の限界を突破 - 30 秒の連続 - アウトプット - 1
 
-[![物語の限界を突破 - 30 秒の連続 - アウトプット - 1](assets/thumbnails/13-narrative-control-13-30-second-continuous-output-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4)
+[![物語の限界を突破 - 30 秒の連続 - アウトプット - 1](../../assets/thumbnails/13-narrative-control-13-30-second-continuous-output-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -371,7 +313,7 @@ curl --request POST \
 
 ### Case 14: 物語の限界を突破する - 30 秒の連続 - アウトプット - 2
 
-[![物語の限界を突破する - 30 秒の連続 - アウトプット - 2](assets/thumbnails/14-narrative-control-14-30-second-continuous-output-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4)
+[![物語の限界を突破する - 30 秒の連続 - アウトプット - 2](../../assets/thumbnails/14-narrative-control-14-30-second-continuous-output-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -396,7 +338,7 @@ curl --request POST \
 
 ### Case 15: 物語の限界を突破する - 30 秒の連続 - アウトプット - 3
 
-[![物語の限界を突破する - 30 秒の連続 - アウトプット - 3](assets/thumbnails/15-narrative-control-15-30-second-continuous-output-group-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4)
+[![物語の限界を突破する - 30 秒の連続 - アウトプット - 3](../../assets/thumbnails/15-narrative-control-15-30-second-continuous-output-group-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -435,7 +377,7 @@ curl --request POST \
 
 ### Case 16: 物語の境界を押し広げる-その他の参照入力-出力-1
 
-[![物語の境界を押し広げる-その他の参照入力-出力-1](assets/thumbnails/16-narrative-control-16-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4)
+[![物語の境界を押し広げる-その他の参照入力-出力-1](../../assets/thumbnails/16-narrative-control-16-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -464,7 +406,7 @@ curl --request POST \
 
 ### Case 17: 物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 1-1
 
-[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 1-1](assets/thumbnails/17-reference-asset-17-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4)
+[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 1-1](../../assets/thumbnails/17-reference-asset-17-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -493,7 +435,7 @@ curl --request POST \
 
 ### Case 18: 物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 1-2
 
-[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 1-2](assets/thumbnails/18-reference-asset-18-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4)
+[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 1-2](../../assets/thumbnails/18-reference-asset-18-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -522,7 +464,7 @@ curl --request POST \
 
 ### Case 19: 物語の限界を突破する - 参考入力 - 参考動画 - 1-6
 
-[![物語の限界を突破する - 参考入力 - 参考動画 - 1-6](assets/thumbnails/19-reference-asset-19-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4)
+[![物語の限界を突破する - 参考入力 - 参考動画 - 1-6](../../assets/thumbnails/19-reference-asset-19-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -551,7 +493,7 @@ curl --request POST \
 
 ### Case 20: 物語の境界を押し広げる-その他の参考インプット-アウトプット-2
 
-[![物語の境界を押し広げる-その他の参考インプット-アウトプット-2](assets/thumbnails/20-narrative-control-20-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4)
+[![物語の境界を押し広げる-その他の参考インプット-アウトプット-2](../../assets/thumbnails/20-narrative-control-20-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -570,7 +512,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 21: 物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-2
 
-[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-2](assets/thumbnails/21-reference-asset-21-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4)
+[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-2](../../assets/thumbnails/21-reference-asset-21-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -589,7 +531,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 22: 物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-3
 
-[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-3](assets/thumbnails/22-reference-asset-22-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4)
+[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-3](../../assets/thumbnails/22-reference-asset-22-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -608,7 +550,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 23: 物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-4
 
-[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-4](assets/thumbnails/23-reference-asset-23-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4)
+[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-4](../../assets/thumbnails/23-reference-asset-23-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -627,7 +569,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 24: 物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-5
 
-[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-5](assets/thumbnails/24-reference-asset-24-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4)
+[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-5](../../assets/thumbnails/24-reference-asset-24-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -646,7 +588,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 25: 物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-6
 
-[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-6](assets/thumbnails/25-reference-asset-25-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4)
+[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-6](../../assets/thumbnails/25-reference-asset-25-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -665,7 +607,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 26: 物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-7
 
-[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-7](assets/thumbnails/26-reference-asset-26-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4)
+[![物語の限界を突破する - より多くの参照入力 - 参照ビデオ - 2-7](../../assets/thumbnails/26-reference-asset-26-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -684,7 +626,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 27: 物語の境界を突破する - 第 2 レベルの画面制御 - 出力 -1
 
-[![物語の境界を突破する - 第 2 レベルの画面制御 - 出力 -1](assets/thumbnails/27-narrative-control-27-second-level-frame-control-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4)
+[![物語の境界を突破する - 第 2 レベルの画面制御 - 出力 -1](../../assets/thumbnails/27-narrative-control-27-second-level-frame-control-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -722,7 +664,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 28: 物語の第 2 レベルの画面制御出力 2 の境界を突破する
 
-[![物語の第 2 レベルの画面制御出力 2 の境界を突破する](assets/thumbnails/28-narrative-control-28-second-level-frame-control-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4)
+[![物語の第 2 レベルの画面制御出力 2 の境界を突破する](../../assets/thumbnails/28-narrative-control-28-second-level-frame-control-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -757,7 +699,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 29: 多言語プレゼンテーション-多言語表現-出力-1を展開します。
 
-[![多言語プレゼンテーション-多言語表現-出力-1を展開します。](assets/thumbnails/29-multilingual-expression-29-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4)
+[![多言語プレゼンテーション-多言語表現-出力-1を展開します。](../../assets/thumbnails/29-multilingual-expression-29-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -788,7 +730,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 30: 多言語プレゼンテーション-多言語表現-出力-2を展開します。
 
-[![多言語プレゼンテーション-多言語表現-出力-2を展開します。](assets/thumbnails/30-multilingual-expression-30-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4)
+[![多言語プレゼンテーション-多言語表現-出力-2を展開します。](../../assets/thumbnails/30-multilingual-expression-30-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -822,7 +764,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 31: 制御された編集 1 出力
 
-[![制御された編集 1 出力](assets/thumbnails/31-controllable-editing-31-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4)
+[![制御された編集 1 出力](../../assets/thumbnails/31-controllable-editing-31-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -842,7 +784,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 32: 管理された編集 1 リファレンス
 
-[![管理された編集 1 リファレンス](assets/thumbnails/32-controllable-editing-32-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4)
+[![管理された編集 1 リファレンス](../../assets/thumbnails/32-controllable-editing-32-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -862,7 +804,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 33: 制御された編集 2 出力
 
-[![制御された編集 2 出力](assets/thumbnails/33-controllable-editing-33-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4)
+[![制御された編集 2 出力](../../assets/thumbnails/33-controllable-editing-33-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -882,7 +824,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 34: 制御編集 2 リファレンス
 
-[![制御編集 2 リファレンス](assets/thumbnails/34-controllable-editing-34-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4)
+[![制御編集 2 リファレンス](../../assets/thumbnails/34-controllable-editing-34-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -902,7 +844,7 @@ CMのスタイルは、ストロベリー、アップル、グレープ、オレ
 
 ### Case 35: 制御された編集 3 出力
 
-[![制御された編集 3 出力](assets/thumbnails/35-controllable-editing-35-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4)
+[![制御された編集 3 出力](../../assets/thumbnails/35-controllable-editing-35-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -924,7 +866,7 @@ AI 特殊効果は、風に吹かれた衣服、軽い霧、接触点の少量�
 
 ### Case 36: 管理された編集 3 リファレンス
 
-[![管理された編集 3 リファレンス](assets/thumbnails/36-controllable-editing-36-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4)
+[![管理された編集 3 リファレンス](../../assets/thumbnails/36-controllable-editing-36-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4)
 
 [動画を再生](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4) · サムネイルをクリックすると動画を再生できます。
 
@@ -943,34 +885,3 @@ AI 特殊効果は、風に吹かれた衣服、軽い霧、接触点の少量�
 > この公式ケースには manifest に listed された参照アセットも含まれます。
 
 ---
-
-## 📁 リポジトリ構成
-
-```text
-.
-├── README.md
-├── README.<lang>.md
-├── assets/
-│   ├── banner.png
-│   └── thumbnails/
-├── data/
-│   ├── seedance-2-5-manifest.json
-│   └── seedance-2-5-prompt-translations.json
-└── use-cases/
-    ├── README.md
-    ├── en/
-    │   ├── README.md
-    │   ├── 01-consistency.md
-    │   └── official-seedance-2-5-guide.md
-    └── <lang>/
-        ├── README.md
-        └── official-seedance-2-5-guide.md
-```
-
-## 🙏 謝辞
-
-このリポジトリは Seedance 2.5 early access の公開ガイドとして EvoLink が維持しています。
-
-- Official early access: [Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
-- Current API key path: [EvoLink signup](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
-- Current API examples: [Seedance 2.5 Gateway Service](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)

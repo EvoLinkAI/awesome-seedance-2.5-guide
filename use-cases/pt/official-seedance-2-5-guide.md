@@ -1,79 +1,21 @@
-<div align="center">
-
-<a href="https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedance-2.5-guide"><img src="assets/banner.png" alt="Seedance 2.5 Early Access guide" width="100%"></a>
-
 # Guia oficial do Seedance 2.5
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Get Seedance 2.5 Early Access](https://img.shields.io/badge/Get_Seedance_2.5-Early_Access-black)](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
-[![Official Guide](https://img.shields.io/badge/Official_Guide-36_Media_Assets-7C3AED)](data/seedance-2-5-manifest.json)
-[![API Key](https://img.shields.io/badge/API_Key-EvoLink-orange)](https://evolink.ai/signup?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
+[Voltar ao README do repositório](../../README.pt.md) · [Voltar ao índice original do Seedance 2](../README.md)
 
-[English](README.md) · [Español](README.es.md) · **Português** · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Türkçe](README.tr.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [Русский](README.ru.md)
-
-</div>
-
-## 🍌 Introdução
+> [!NOTE]
+> Os exemplos executáveis atuais ainda usam o caminho estável da API Seedance 2 enquanto o early access do Seedance 2.5 está sendo lançado. Não substitua model IDs verificados `seedance-2.0-*` por IDs 2.5 não verificados.
 
 O early access do Seedance 2.5 já está aberto pela EvoLink. Este repositório transforma os materiais oficiais de lançamento em um guia nativo do GitHub para criadores, desenvolvedores e equipes de vídeo com IA.
 
 A guia cobre 36 mídias oficiais em demos, showcases, controle narrativo, expressão multilíngue e edição controlável. Como são casos oficiais, não incluímos autor ou fonte por caso.
 
-[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Obter API key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Exemplos atuais da API Seedance](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
-
-> [!NOTE]
-> Os exemplos executáveis atuais ainda usam o caminho estável da API Seedance 2 enquanto o early access do Seedance 2.5 está sendo lançado. Não substitua model IDs verificados `seedance-2.0-*` por IDs 2.5 não verificados.
-
-## 📑 Menu
-
-- Introdução
-- Início rápido
-- Guia original do Seedance 2
-- Guia oficial do Seedance 2.5
-- Estrutura do repositório
-- Agradecimento
-
-## 🚀 Início rápido
-
-Use este repositório para inspecionar exemplos oficiais 2.5, copiar estruturas de prompt e entrar no rollout 2.5.
-
-> [!NOTE]
-> Este início rápido mantém intencionalmente o model ID verificado `seedance-2.0-text-to-video` e o caminho atual da API Seedance 2. O acesso à API Seedance 2.5 está chegando via early access; não troque por um ID 2.5 não verificado.
-
-```bash
-export EVOLINK_API_KEY="your_key_here"
-
-curl --request POST \
-  --url https://api.evolink.ai/v1/videos/generations \
-  --header "Authorization: Bearer ${EVOLINK_API_KEY}" \
-  --header 'Content-Type: application/json' \
-  --data '{
-    "model": "seedance-2.0-text-to-video",
-    "prompt": "A cinematic product reveal, slow dolly-in, reflective glass table, premium commercial lighting",
-    "duration": 5,
-    "quality": "720p",
-    "aspect_ratio": "16:9",
-    "generate_audio": true
-  }'
-```
-
-## 🧭 Guia original do Seedance 2
-
-A nova guia oficial Seedance 2.5 fica em primeiro lugar. A guia original Seedance 2 continua preservada como destino para a API atual, padrões de uso e notas multimodais.
-
-- [Abrir índice original do Seedance 2](use-cases/README.md)
-- [Casos Seedance 2 em inglês](use-cases/en/README.md)
-- [Casos Seedance 2 em chinês simplificado](use-cases/zh-CN/README.md)
-- [Casos Seedance 2 em chinês tradicional](use-cases/zh-TW/README.md)
-- [Exemplos atuais da API Seedance](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
-
-## 🎬 Guia oficial do Seedance 2.5
+[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Exemplos atuais da API Seedance](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
 ## Vídeo acima da dobra
 
 ### Case 1: Vídeo acima da dobra 1
 
-[![Vídeo acima da dobra 1](assets/thumbnails/01-hero-demo-1-official-launch-film-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4)
+[![Vídeo acima da dobra 1](../../assets/thumbnails/01-hero-demo-1-official-launch-film-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -91,7 +33,7 @@ Especificações técnicas: Texturas mecânicas hiper-realistas, ricos tons de l
 
 ### Case 2: Vídeo acima da dobra 2
 
-[![Vídeo acima da dobra 2](assets/thumbnails/02-hero-demo-2-official-launch-film-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4)
+[![Vídeo acima da dobra 2](../../assets/thumbnails/02-hero-demo-2-official-launch-film-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -115,7 +57,7 @@ Acompanhe de perto a edição dinâmica do ritmo BGM (transição travada), a gr
 
 ### Case 3: Vídeo acima da dobra 3
 
-[![Vídeo acima da dobra 3](assets/thumbnails/03-hero-demo-3-official-launch-film-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4)
+[![Vídeo acima da dobra 3](../../assets/thumbnails/03-hero-demo-3-official-launch-film-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -139,7 +81,7 @@ A tela fica em um close dos olhos humanos, depois os olhos são fechados e a tel
 
 ### Case 4: efeitos visuais 1
 
-[![efeitos visuais 1](assets/thumbnails/04-official-showcase-4-visual-effects.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4)
+[![efeitos visuais 1](../../assets/thumbnails/04-official-showcase-4-visual-effects.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -164,7 +106,7 @@ Um vídeo de animação de texto criativo em loop contínuo de 15 segundos, 4K, 
 
 ### Case 5: Filme 2
 
-[![Filme 2](assets/thumbnails/05-official-showcase-5-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4)
+[![Filme 2](../../assets/thumbnails/05-official-showcase-5-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -185,7 +127,7 @@ O ritmo da câmera desacelera e entra na bela câmera lenta (câmera lenta). Uma
 
 ### Case 6: Efeitos de pós-produção 3
 
-[![Efeitos de pós-produção 3](assets/thumbnails/06-official-showcase-6-post-production-vfx.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4)
+[![Efeitos de pós-produção 3](../../assets/thumbnails/06-official-showcase-6-post-production-vfx.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -199,7 +141,7 @@ Um cenário de recifes de corais de águas profundas, um mundo subaquático trop
 
 ### Case 7: Filme 4
 
-[![Filme 4](assets/thumbnails/07-official-showcase-7-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4)
+[![Filme 4](../../assets/thumbnails/07-official-showcase-7-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -213,7 +155,7 @@ Textura cinematográfica, sentido sofisticado, deserto dourado pela manhã, um e
 
 ### Case 8: Publicidade 5
 
-[![Publicidade 5](assets/thumbnails/08-official-showcase-8-advertising.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4)
+[![Publicidade 5](../../assets/thumbnails/08-official-showcase-8-advertising.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -229,7 +171,7 @@ No clímax do curta-metragem, a câmera diminui o zoom dramaticamente, quebrando
 
 ### Case 9: Filme 6
 
-[![Filme 6](assets/thumbnails/09-official-showcase-9-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4)
+[![Filme 6](../../assets/thumbnails/09-official-showcase-9-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -243,7 +185,7 @@ Curta-metragem de patrimônio cultural imaterial da Ópera de Pequim, com toque 
 
 ### Case 10: Jogo 7
 
-[![Jogo 7](assets/thumbnails/10-official-showcase-10-game-trailer.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4)
+[![Jogo 7](../../assets/thumbnails/10-official-showcase-10-game-trailer.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -299,7 +241,7 @@ Estética épica de ficção científica / Estrutura de civilização de dunas, 
 
 ### Case 11: Cinema e TV 8
 
-[![Cinema e TV 8](assets/thumbnails/11-official-showcase-11-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4)
+[![Cinema e TV 8](../../assets/thumbnails/11-official-showcase-11-cinematic-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -313,7 +255,7 @@ O tema é “Desabrochar Mecânico da Flor”. A imagem precisa destacar as vant
 
 ### Case 12: Ciência Popular 9
 
-[![Ciência Popular 9](assets/thumbnails/12-official-showcase-12-educational-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4)
+[![Ciência Popular 9](../../assets/thumbnails/12-official-showcase-12-educational-film.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -345,7 +287,7 @@ Os antigos padrões de estradas ao fundo fundem-se gradualmente com o espaço mo
 
 ### Case 13: Rompendo os limites da narrativa – 30 segundos de continuidade – resultado – 1
 
-[![Rompendo os limites da narrativa – 30 segundos de continuidade – resultado – 1](assets/thumbnails/13-narrative-control-13-30-second-continuous-output-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4)
+[![Rompendo os limites da narrativa – 30 segundos de continuidade – resultado – 1](../../assets/thumbnails/13-narrative-control-13-30-second-continuous-output-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -371,7 +313,7 @@ A qualidade geral do filme é um estilo de publicidade de moda de alta qualidade
 
 ### Case 14: Rompendo os limites da narrativa – 30 segundos de continuidade – resultado – 2
 
-[![Rompendo os limites da narrativa – 30 segundos de continuidade – resultado – 2](assets/thumbnails/14-narrative-control-14-30-second-continuous-output-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4)
+[![Rompendo os limites da narrativa – 30 segundos de continuidade – resultado – 2](../../assets/thumbnails/14-narrative-control-14-30-second-continuous-output-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group2/output.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -396,7 +338,7 @@ Ao final, a bola está no centro de um estádio moderno, e multidões e gritos d
 
 ### Case 15: Rompendo os limites da narrativa – 30 segundos de continuidade – resultado – 3
 
-[![Rompendo os limites da narrativa – 30 segundos de continuidade – resultado – 3](assets/thumbnails/15-narrative-control-15-30-second-continuous-output-group-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4)
+[![Rompendo os limites da narrativa – 30 segundos de continuidade – resultado – 3](../../assets/thumbnails/15-narrative-control-15-30-second-continuous-output-group-3.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group3/output.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -429,7 +371,7 @@ Narrador: "O último passo é enxaguar pela primeira vez. Não é necessário co
 
 ### Case 16: Empurrando os limites narrativos - mais referência de entrada-saída-1
 
-[![Empurrando os limites narrativos - mais referência de entrada-saída-1](assets/thumbnails/16-narrative-control-16-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4)
+[![Empurrando os limites narrativos - mais referência de entrada-saída-1](../../assets/thumbnails/16-narrative-control-16-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/output.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -458,7 +400,7 @@ Movimento de câmera segmentado e descrição da cena:
 
 ### Case 17: Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-1-1
 
-[![Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-1-1](assets/thumbnails/17-reference-asset-17-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4)
+[![Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-1-1](../../assets/thumbnails/17-reference-asset-17-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference1.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -487,7 +429,7 @@ Movimento de câmera segmentado e descrição da cena:
 
 ### Case 18: Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-1-2
 
-[![Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-1-2](assets/thumbnails/18-reference-asset-18-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4)
+[![Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-1-2](../../assets/thumbnails/18-reference-asset-18-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference2.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -516,7 +458,7 @@ Movimento de câmera segmentado e descrição da cena:
 
 ### Case 19: Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-1-6
 
-[![Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-1-6](assets/thumbnails/19-reference-asset-19-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4)
+[![Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-1-6](../../assets/thumbnails/19-reference-asset-19-multi-reference-input-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group1/reference6.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -545,7 +487,7 @@ Movimento de câmera segmentado e descrição da cena:
 
 ### Case 20: Empurrando os limites narrativos - mais referência de entrada-saída-2
 
-[![Empurrando os limites narrativos - mais referência de entrada-saída-2](assets/thumbnails/20-narrative-control-20-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4)
+[![Empurrando os limites narrativos - mais referência de entrada-saída-2](../../assets/thumbnails/20-narrative-control-20-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/output.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -564,7 +506,7 @@ O estilo do comercial é alegre e colorido, tendo como protagonistas os biscoito
 
 ### Case 21: Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-2-2
 
-[![Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-2-2](assets/thumbnails/21-reference-asset-21-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4)
+[![Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-2-2](../../assets/thumbnails/21-reference-asset-21-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference2.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -583,7 +525,7 @@ O estilo do comercial é alegre e colorido, tendo como protagonistas os biscoito
 
 ### Case 22: Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-2-3
 
-[![Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-2-3](assets/thumbnails/22-reference-asset-22-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4)
+[![Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-2-3](../../assets/thumbnails/22-reference-asset-22-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference3.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -602,7 +544,7 @@ O estilo do comercial é alegre e colorido, tendo como protagonistas os biscoito
 
 ### Case 23: Quebrando os limites da narrativa - mais entrada de referência - vídeo de referência-2-4
 
-[![Quebrando os limites da narrativa - mais entrada de referência - vídeo de referência-2-4](assets/thumbnails/23-reference-asset-23-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4)
+[![Quebrando os limites da narrativa - mais entrada de referência - vídeo de referência-2-4](../../assets/thumbnails/23-reference-asset-23-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference4.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -621,7 +563,7 @@ O estilo do comercial é alegre e colorido, tendo como protagonistas os biscoito
 
 ### Case 24: Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-2-5
 
-[![Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-2-5](assets/thumbnails/24-reference-asset-24-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4)
+[![Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-2-5](../../assets/thumbnails/24-reference-asset-24-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference5.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -640,7 +582,7 @@ O estilo do comercial é alegre e colorido, tendo como protagonistas os biscoito
 
 ### Case 25: Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-2-6
 
-[![Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-2-6](assets/thumbnails/25-reference-asset-25-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4)
+[![Quebrando os limites da narrativa - mais referência de entrada - vídeo de referência-2-6](../../assets/thumbnails/25-reference-asset-25-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference6.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -659,7 +601,7 @@ O estilo do comercial é alegre e colorido, tendo como protagonistas os biscoito
 
 ### Case 26: Quebrando os limites da narrativa - mais entrada de referência - vídeo de referência-2-7
 
-[![Quebrando os limites da narrativa - mais entrada de referência - vídeo de referência-2-7](assets/thumbnails/26-reference-asset-26-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4)
+[![Quebrando os limites da narrativa - mais entrada de referência - vídeo de referência-2-7](../../assets/thumbnails/26-reference-asset-26-multi-reference-input-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab2/group2/reference7.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -678,7 +620,7 @@ O estilo do comercial é alegre e colorido, tendo como protagonistas os biscoito
 
 ### Case 27: Rompendo os limites do controle de tela de segundo nível narrativo-1
 
-[![Rompendo os limites do controle de tela de segundo nível narrativo-1](assets/thumbnails/27-narrative-control-27-second-level-frame-control-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4)
+[![Rompendo os limites do controle de tela de segundo nível narrativo-1](../../assets/thumbnails/27-narrative-control-27-second-level-frame-control-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group1/output.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -716,7 +658,7 @@ As legendas só podem manter o nome da marca, sem acrescentar muitas palavras.
 
 ### Case 28: Quebrando os limites do controle de tela de segundo nível narrativo-saída-2
 
-[![Quebrando os limites do controle de tela de segundo nível narrativo-saída-2](assets/thumbnails/28-narrative-control-28-second-level-frame-control-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4)
+[![Quebrando os limites do controle de tela de segundo nível narrativo-saída-2](../../assets/thumbnails/28-narrative-control-28-second-level-frame-control-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab3/group2/output.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -751,7 +693,7 @@ A câmera circula a locomotiva no ar para um close panorâmico em câmera lenta.
 
 ### Case 29: Expandir apresentação multilíngue-expressão multilíngue-saída-1
 
-[![Expandir apresentação multilíngue-expressão multilíngue-saída-1](assets/thumbnails/29-multilingual-expression-29-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4)
+[![Expandir apresentação multilíngue-expressão multilíngue-saída-1](../../assets/thumbnails/29-multilingual-expression-29-group-1.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -782,7 +724,7 @@ A atmosfera geral é um nascer do sol matinal, com luz de fundo dourada, luz vol
 
 ### Case 30: Expandir apresentação multilíngue-expressão multilíngue-saída-2
 
-[![Expandir apresentação multilíngue-expressão multilíngue-saída-2](assets/thumbnails/30-multilingual-expression-30-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4)
+[![Expandir apresentação multilíngue-expressão multilíngue-saída-2](../../assets/thumbnails/30-multilingual-expression-30-group-2.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group2/output.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -816,7 +758,7 @@ Cena 9<<<image_9_9>>>Ruas coreanas, ambiente urbano moderno. A jovem pegou um ga
 
 ### Case 31: Saída de Edição Controlada 1
 
-[![Saída de Edição Controlada 1](assets/thumbnails/31-controllable-editing-31-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4)
+[![Saída de Edição Controlada 1](../../assets/thumbnails/31-controllable-editing-31-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -836,7 +778,7 @@ Um arco de energia azul e branco e uma flecha luminosa<<<image_1_2>>>aparecem le
 
 ### Case 32: Referência de Edição Controlada 1
 
-[![Referência de Edição Controlada 1](assets/thumbnails/32-controllable-editing-32-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4)
+[![Referência de Edição Controlada 1](../../assets/thumbnails/32-controllable-editing-32-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/reference1.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -856,7 +798,7 @@ Um arco de energia azul e branco e uma flecha luminosa<<<image_1_2>>>aparecem le
 
 ### Case 33: Saída de Edição Controlada 2
 
-[![Saída de Edição Controlada 2](assets/thumbnails/33-controllable-editing-33-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4)
+[![Saída de Edição Controlada 2](../../assets/thumbnails/33-controllable-editing-33-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/output.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -876,7 +818,7 @@ Mantenha o grupo de girafas, os galhos das árvores, as pastagens distantes, a l
 
 ### Case 34: Referência de Edição Controlada 2
 
-[![Referência de Edição Controlada 2](assets/thumbnails/34-controllable-editing-34-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4)
+[![Referência de Edição Controlada 2](../../assets/thumbnails/34-controllable-editing-34-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group2/reference1.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -896,7 +838,7 @@ Mantenha o grupo de girafas, os galhos das árvores, as pastagens distantes, a l
 
 ### Case 35: Saída de Edição Controlada 3
 
-[![Saída de Edição Controlada 3](assets/thumbnails/35-controllable-editing-35-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4)
+[![Saída de Edição Controlada 3](../../assets/thumbnails/35-controllable-editing-35-edited-output.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/output.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -918,7 +860,7 @@ Os efeitos especiais de IA apenas melhoram o ambiente e a textura: roupas soprad
 
 ### Case 36: Referência de Edição Controlada 3
 
-[![Referência de Edição Controlada 3](assets/thumbnails/36-controllable-editing-36-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4)
+[![Referência de Edição Controlada 3](../../assets/thumbnails/36-controllable-editing-36-reference.jpg)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4)
 
 [Reproduzir vídeo](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group3/reference1.mp4) · Clique na miniatura para reproduzir o vídeo.
 
@@ -937,34 +879,3 @@ Os efeitos especiais de IA apenas melhoram o ambiente e a textura: roupas soprad
 > Este caso oficial também inclui recursos de referência listados no manifest.
 
 ---
-
-## 📁 Estrutura do repositório
-
-```text
-.
-├── README.md
-├── README.<lang>.md
-├── assets/
-│   ├── banner.png
-│   └── thumbnails/
-├── data/
-│   ├── seedance-2-5-manifest.json
-│   └── seedance-2-5-prompt-translations.json
-└── use-cases/
-    ├── README.md
-    ├── en/
-    │   ├── README.md
-    │   ├── 01-consistency.md
-    │   └── official-seedance-2-5-guide.md
-    └── <lang>/
-        ├── README.md
-        └── official-seedance-2-5-guide.md
-```
-
-## 🙏 Agradecimento
-
-Este repositório é mantido pela EvoLink como guia público para o early access do Seedance 2.5.
-
-- Official early access: [Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
-- Current API key path: [EvoLink signup](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
-- Current API examples: [Seedance 2.5 Gateway Service](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)

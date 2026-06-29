@@ -4,6 +4,10 @@ This directory preserves the original Seedance 2 guide content: 55 cases across 
 
 Use it as the jump target for the current verified Seedance 2 API path while the Seedance 2.5 early access rollout is opening.
 
+For the archived full Seedance 2 README content, including the original quick start, parameter notes, advanced techniques, and prompt templates, start here:
+
+- [Full original Seedance 2 guide](../seedance-2-guide/README.md)
+
 ## Language Index
 
 - [English](en/README.md)

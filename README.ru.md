@@ -59,9 +59,10 @@ curl --request POST \
 
 ## 🧭 Исходный гайд Seedance 2
 
-Новый официальный гайд Seedance 2.5 размещен первым. Исходный гайд Seedance 2 сохранен как jump target для текущего API path, use-case writing patterns и multimodal workflow notes.
+Новый официальный гайд Seedance 2.5 размещен первым. Полный исходный гайд Seedance 2 сохранен как legacy jump target для текущего API path, use-case writing patterns, prompt templates, parameter notes и multimodal workflow notes.
 
-- [Открыть исходный индекс Seedance 2](use-cases/README.md)
+- [Открыть полный исходный гайд Seedance 2](seedance-2-guide/README.md)
+- [Открыть исходный индекс из 55 case](use-cases/README.md)
 - [Английские Seedance 2 use cases](use-cases/en/README.md)
 - [Seedance 2 use cases на упрощенном китайском](use-cases/zh-CN/README.md)
 - [Seedance 2 use cases на традиционном китайском](use-cases/zh-TW/README.md)

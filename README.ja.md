@@ -59,9 +59,10 @@ curl --request POST \
 
 ## 🧭 元の Seedance 2 ガイド
 
-新しい Seedance 2.5 公式ガイドを先頭に配置しています。元の Seedance 2 ガイドは、現在の API パス、ユースケース記述、マルチモーダル workflow の参照先としてそのまま残しています。
+新しい Seedance 2.5 公式ガイドを先頭に配置しています。元の Seedance 2 ガイド全文は、現在の API パス、ユースケースの書き方、prompt テンプレート、パラメータ説明、マルチモーダル workflow ノートへの legacy ジャンプ先として保持しています。
 
-- [元の Seedance 2 ガイド索引を開く](use-cases/README.md)
+- [元の Seedance 2 ガイド全文を開く](seedance-2-guide/README.ja.md)
+- [元の 55 case 索引を開く](use-cases/README.md)
 - [英語の Seedance 2 ユースケース](use-cases/en/README.md)
 - [簡体字中国語の Seedance 2 ユースケース](use-cases/zh-CN/README.md)
 - [繁体字中国語の Seedance 2 ユースケース](use-cases/zh-TW/README.md)

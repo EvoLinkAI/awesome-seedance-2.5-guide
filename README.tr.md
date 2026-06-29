@@ -59,9 +59,10 @@ curl --request POST \
 
 ## 🧭 Orijinal Seedance 2 Rehberi
 
-Yeni Seedance 2.5 resmi rehberi en başa yerleştirildi. Orijinal Seedance 2 rehberi mevcut API yolu, use-case yazım kalıpları ve multimodal workflow notları için jump target olarak korunuyor.
+Yeni Seedance 2.5 resmi rehberi en başa yerleştirildi. Orijinal tam Seedance 2 rehberi, mevcut API yolu, use-case yazım kalıpları, prompt şablonları, parametre notları ve multimodal workflow notları için legacy atlama hedefi olarak korunuyor.
 
-- [Orijinal Seedance 2 rehber indeksini aç](use-cases/README.md)
+- [Orijinal tam Seedance 2 rehberini aç](seedance-2-guide/README.tr.md)
+- [Orijinal 55 case indeksini aç](use-cases/README.md)
 - [İngilizce Seedance 2 use case’leri](use-cases/en/README.md)
 - [Basitleştirilmiş Çince Seedance 2 use case’leri](use-cases/zh-CN/README.md)
 - [Geleneksel Çince Seedance 2 use case’leri](use-cases/zh-TW/README.md)

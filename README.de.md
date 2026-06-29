@@ -59,9 +59,10 @@ curl --request POST \
 
 ## 🧭 Originaler Seedance 2 Guide
 
-Der neue offizielle Seedance 2.5 Guide steht zuerst. Der ursprüngliche Seedance 2 Guide bleibt als Sprungziel für aktuellen API-Pfad, Use-Case-Patterns und multimodale Workflow-Notizen erhalten.
+Der neue offizielle Seedance 2.5 Guide steht zuerst. Der vollständige ursprüngliche Seedance 2 Guide bleibt als Legacy-Sprungziel für den aktuellen API-Pfad, Use-Case-Patterns, Prompt-Vorlagen, Parameterhinweise und multimodale Workflow-Notizen erhalten.
 
-- [Originalen Seedance 2 Guide Index öffnen](use-cases/README.md)
+- [Vollständigen originalen Seedance 2 Guide öffnen](seedance-2-guide/README.de.md)
+- [Originalen 55-Case-Index öffnen](use-cases/README.md)
 - [Englische Seedance 2 Use Cases](use-cases/en/README.md)
 - [Chinesisch vereinfacht Seedance 2 Use Cases](use-cases/zh-CN/README.md)
 - [Chinesisch traditionell Seedance 2 Use Cases](use-cases/zh-TW/README.md)

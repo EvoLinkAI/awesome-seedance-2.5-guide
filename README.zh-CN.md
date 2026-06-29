@@ -59,9 +59,10 @@ curl --request POST \
 
 ## 🧭 原 Seedance 2 Guide
 
-新的 Seedance 2.5 官方 guide 已放在最前面。原 Seedance 2 guide 仍然完整保留，作为当前 API path、用例写法和多模态 workflow 的跳转入口。
+新的 Seedance 2.5 官方 guide 已放在最前面。完整的原 Seedance 2 guide 已作为 legacy 跳转入口保留，覆盖当前 API path、用例写法、prompt 模板、参数说明和多模态 workflow。
 
-- [打开原 Seedance 2 guide 索引](use-cases/README.md)
+- [打开完整原 Seedance 2 guide](seedance-2-guide/README.zh-CN.md)
+- [打开原 55 个 case 索引](use-cases/README.md)
 - [英文 Seedance 2 用例](use-cases/en/README.md)
 - [简体中文 Seedance 2 用例](use-cases/zh-CN/README.md)
 - [繁体中文 Seedance 2 用例](use-cases/zh-TW/README.md)

@@ -59,9 +59,10 @@ curl --request POST \
 
 ## 🧭 기존 Seedance 2 가이드
 
-새 Seedance 2.5 공식 가이드를 먼저 배치했습니다. 기존 Seedance 2 가이드는 현재 API 경로, 유스케이스 작성 패턴, 멀티모달 workflow 참고용으로 보존했습니다.
+새 Seedance 2.5 공식 가이드를 먼저 배치했습니다. 기존 Seedance 2 전체 가이드는 현재 API 경로, 유스케이스 작성 패턴, prompt 템플릿, 파라미터 노트, 멀티모달 workflow 노트를 위한 legacy 점프 타깃으로 보존됩니다.
 
-- [기존 Seedance 2 가이드 색인 열기](use-cases/README.md)
+- [기존 Seedance 2 전체 가이드 열기](seedance-2-guide/README.ko.md)
+- [기존 55개 case 색인 열기](use-cases/README.md)
 - [영어 Seedance 2 유스케이스](use-cases/en/README.md)
 - [중국어 간체 Seedance 2 유스케이스](use-cases/zh-CN/README.md)
 - [중국어 번체 Seedance 2 유스케이스](use-cases/zh-TW/README.md)

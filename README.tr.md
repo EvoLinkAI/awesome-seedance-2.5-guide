@@ -21,6 +21,8 @@ Rehber; lansman demoları, showcase işleri, narrative control, çok dilli ifade
 
 [Get Seedance 2.5 Early Access](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [API anahtarı al](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Güncel Seedance API örnekleri](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
+Seedance 2 arıyorsan orijinal guide burada korunuyor: [Orijinal Seedance 2 Guide](seedance-2-guide/README.tr.md) · [55 case index](use-cases/README.md).
+
 > [!NOTE]
 > Çalıştırılabilir API snippetleri, Seedance 2.5 early access rollout sırasında hâlâ kararlı Seedance 2 API yolunu kullanır. Doğrulanmış `seedance-2.0-*` model IDlerini doğrulanmamış 2.5 IDleriyle değiştirmeyin.
 

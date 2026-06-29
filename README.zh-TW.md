@@ -21,6 +21,8 @@ Seedance 2.5 early access 已透過 EvoLink 開放。本倉庫把官方 Seedance
 
 [Get Seedance 2.5 Early Access](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [取得 API Key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [目前 Seedance API 範例](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
+如果你在找 Seedance 2，原 guide 已完整保留在這裡：[原 Seedance 2 Guide](seedance-2-guide/README.zh-TW.md) · [55 個 case 索引](use-cases/README.md)。
+
 > [!NOTE]
 > 目前可執行的 API 程式碼仍使用穩定的 Seedance 2 API path；Seedance 2.5 early access 正在 rollout。不要把已驗證的 `seedance-2.0-*` model id 替換成未驗證的 2.5 model id。
 

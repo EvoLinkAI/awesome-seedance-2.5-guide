@@ -21,6 +21,8 @@ Seedance 2.5 early access는 EvoLink를 통해 열려 있습니다. 이 저장�
 
 [Get Seedance 2.5 Early Access](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [API 키 받기](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [현재 Seedance API 예제](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
+Seedance 2를 찾고 있다면 원본 guide는 여기에 그대로 보존되어 있습니다: [원본 Seedance 2 Guide](seedance-2-guide/README.ko.md) · [55개 case index](use-cases/README.md).
+
 > [!NOTE]
 > 현재 실행 가능한 API 스니펫은 Seedance 2.5 early access rollout 중에도 안정적인 Seedance 2 API 경로를 사용합니다. 검증된 `seedance-2.0-*` model ID를 검증되지 않은 2.5 ID로 바꾸지 마세요.
 

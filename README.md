@@ -21,6 +21,8 @@ The guide covers 36 official media assets across launch demos, showcase works, n
 
 [Get Seedance 2.5 Early Access](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Get API Key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Current Seedance API Examples](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
+Looking for Seedance 2? The original guide is preserved here: [Original Seedance 2 Guide](seedance-2-guide/README.md) · [55-case index](use-cases/README.md).
+
 > [!NOTE]
 > Current runnable API snippets still use the stable Seedance 2 API path while Seedance 2.5 early access is rolling out. Do not replace verified `seedance-2.0-*` model IDs with unverified 2.5 IDs.
 

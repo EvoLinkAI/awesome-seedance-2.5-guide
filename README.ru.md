@@ -21,6 +21,8 @@ Seedance 2.5 early access открыт через EvoLink. Этот репози
 
 [Get Seedance 2.5 Early Access](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Получить API key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Текущие примеры Seedance API](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
+Если вам нужен Seedance 2, оригинальный guide сохранен здесь: [Оригинальный Seedance 2 Guide](seedance-2-guide/README.md) · [Индекс 55 cases](use-cases/README.md).
+
 > [!NOTE]
 > Текущие исполняемые API-сниппеты все еще используют стабильный путь Seedance 2 API, пока разворачивается Seedance 2.5 early access. Не заменяйте проверенные `seedance-2.0-*` model IDs непроверенными 2.5 IDs.
 

@@ -21,6 +21,8 @@ Seedance 2.5 early access は EvoLink で公開されています。このリポ
 
 [Get Seedance 2.5 Early Access](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [API キーを取得](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [現在の Seedance API 例](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
+Seedance 2 を探している場合、元の guide はここに保存されています: [元の Seedance 2 Guide](seedance-2-guide/README.ja.md) · [55 case index](use-cases/README.md).
+
 > [!NOTE]
 > 現在実行できる API スニペットは、Seedance 2.5 early access の展開中も安定した Seedance 2 API パスを使っています。検証済みの `seedance-2.0-*` model ID を未検証の 2.5 ID に置き換えないでください。
 

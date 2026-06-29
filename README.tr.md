@@ -1,11 +1,11 @@
 <div align="center">
 
-<a href="https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedance-2.5-guide"><img src="assets/banner.png" alt="Seedance 2.5 Early Access guide" width="100%"></a>
+<a href="https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedance-2.5-guide"><img src="assets/banner.png" alt="Seedance 2.5 Early Access guide" width="100%"></a>
 
 # Seedance 2.5 Resmi Rehberi
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Get Seedance 2.5 Early Access](https://img.shields.io/badge/Get_Seedance_2.5-Early_Access-black)](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
+[![Get Seedance 2.5 Early Access](https://img.shields.io/badge/Get_Seedance_2.5-Early_Access-black)](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
 [![Official Guide](https://img.shields.io/badge/Official_Guide-36_Media_Assets-7C3AED)](data/seedance-2-5-manifest.json)
 [![API Key](https://img.shields.io/badge/API_Key-EvoLink-orange)](https://evolink.ai/signup?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
 
@@ -19,7 +19,7 @@ Seedance 2.5 early access EvoLink üzerinden açıldı. Bu repo resmi lansman ma
 
 Rehber; lansman demoları, showcase işleri, narrative control, çok dilli ifade ve kontrol edilebilir editing boyunca 36 resmi medya varlığını kapsar. Tümü resmi case olduğu için case bloklarında ayrı creator veya source satırı yoktur.
 
-[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [API anahtarı al](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Güncel Seedance API örnekleri](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
+[Get Seedance 2.5 Early Access](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [API anahtarı al](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Güncel Seedance API örnekleri](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
 > [!NOTE]
 > Çalıştırılabilir API snippetleri, Seedance 2.5 early access rollout sırasında hâlâ kararlı Seedance 2 API yolunu kullanır. Doğrulanmış `seedance-2.0-*` model IDlerini doğrulanmamış 2.5 IDleriyle değiştirmeyin.
@@ -970,6 +970,6 @@ Yapay zeka özel efektleri yalnızca çevreyi ve dokuyu iyileştirir: rüzgarla 
 
 Bu repo, Seedance 2.5 early access için public guide olarak EvoLink tarafından korunur.
 
-- Official early access: [Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
+- Official early access: [Get Seedance 2.5 Early Access](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
 - Current API key path: [EvoLink signup](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
 - Current API examples: [Seedance 2.5 Gateway Service](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)

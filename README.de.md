@@ -1,11 +1,11 @@
 <div align="center">
 
-<a href="https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedance-2.5-guide"><img src="assets/banner.png" alt="Seedance 2.5 Early Access guide" width="100%"></a>
+<a href="https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedance-2.5-guide"><img src="assets/banner.png" alt="Seedance 2.5 Early Access guide" width="100%"></a>
 
 # Offizieller Seedance 2.5 Guide
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Get Seedance 2.5 Early Access](https://img.shields.io/badge/Get_Seedance_2.5-Early_Access-black)](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
+[![Get Seedance 2.5 Early Access](https://img.shields.io/badge/Get_Seedance_2.5-Early_Access-black)](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
 [![Official Guide](https://img.shields.io/badge/Official_Guide-36_Media_Assets-7C3AED)](data/seedance-2-5-manifest.json)
 [![API Key](https://img.shields.io/badge/API_Key-EvoLink-orange)](https://evolink.ai/signup?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedance-2.5-guide)
 
@@ -19,7 +19,7 @@ Seedance 2.5 early access ist über EvoLink geöffnet. Dieses Repository macht a
 
 Der Guide umfasst 36 offizielle Medien aus Launch-Demos, Showcase-Arbeiten, Narrative Control, multilingualer Darstellung und kontrollierbarer Bearbeitung. Es sind offizielle Fälle, deshalb gibt es keine Autor- oder Source-Zeile je Case.
 
-[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [API Key erhalten](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Aktuelle Seedance API Beispiele](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
+[Get Seedance 2.5 Early Access](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [API Key erhalten](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Aktuelle Seedance API Beispiele](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
 > [!NOTE]
 > Aktuell lauffähige API-Snippets verwenden weiterhin den stabilen Seedance 2 API-Pfad, während Seedance 2.5 early access ausgerollt wird. Ersetze verifizierte `seedance-2.0-*` model IDs nicht durch unverifizierte 2.5 IDs.
@@ -966,6 +966,6 @@ KI-Spezialeffekte verbessern nur die Umgebung und die Textur: vom Wind verwehte 
 
 Dieses Repository wird von EvoLink als öffentlicher Guide für Seedance 2.5 early access gepflegt.
 
-- Official early access: [Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
+- Official early access: [Get Seedance 2.5 Early Access](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
 - Current API key path: [EvoLink signup](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide)
 - Current API examples: [Seedance 2.5 Gateway Service](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)

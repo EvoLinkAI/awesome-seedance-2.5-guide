@@ -9,7 +9,7 @@ Seedance 2.5 early access 已透過 EvoLink 開放。本倉庫把官方 Seedance
 
 本 guide 覆蓋 36 個官方素材，包含首屏 demo、官方作品展示、敘事控制、多語種表達和可控編輯。因為全部都是官方案例，所以單個 case 不寫作者或來源行。
 
-[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [目前 Seedance API 範例](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
+[Get Seedance 2.5 Early Access](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [目前 Seedance API 範例](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
 ## 首屏視頻
 

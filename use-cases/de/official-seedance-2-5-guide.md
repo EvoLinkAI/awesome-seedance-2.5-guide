@@ -9,7 +9,7 @@ Seedance 2.5 early access ist über EvoLink geöffnet. Dieses Repository macht a
 
 Der Guide umfasst 36 offizielle Medien aus Launch-Demos, Showcase-Arbeiten, Narrative Control, multilingualer Darstellung und kontrollierbarer Bearbeitung. Es sind offizielle Fälle, deshalb gibt es keine Autor- oder Source-Zeile je Case.
 
-[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Aktuelle Seedance API Beispiele](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
+[Get Seedance 2.5 Early Access](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Aktuelle Seedance API Beispiele](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
 ## „Above the Fold“-Video
 

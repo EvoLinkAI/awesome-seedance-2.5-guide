@@ -9,7 +9,7 @@ Seedance 2.5 early access EvoLink üzerinden açıldı. Bu repo resmi lansman ma
 
 Rehber; lansman demoları, showcase işleri, narrative control, çok dilli ifade ve kontrol edilebilir editing boyunca 36 resmi medya varlığını kapsar. Tümü resmi case olduğu için case bloklarında ayrı creator veya source satırı yoktur.
 
-[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Güncel Seedance API örnekleri](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
+[Get Seedance 2.5 Early Access](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [Güncel Seedance API örnekleri](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
 ## Ekranın üst kısmındaki video
 

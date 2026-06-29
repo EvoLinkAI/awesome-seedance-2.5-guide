@@ -9,7 +9,7 @@ Seedance 2.5 early access는 EvoLink를 통해 열려 있습니다. 이 저장�
 
 가이드는 출시 데모, 쇼케이스, 내러티브 제어, 다국어 표현, 제어 가능한 편집에 걸친 36개의 공식 미디어 에셋을 다룹니다. 모두 공식 사례이므로 개별 케이스에는 작성자나 출처 라인을 넣지 않습니다.
 
-[Get Seedance 2.5 Early Access](https://evolink.ai/launch/seedance-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [현재 Seedance API 예제](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
+[Get Seedance 2.5 Early Access](https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2.5-guide) · [현재 Seedance API 예제](https://github.com/EvoLinkAI/Seedance-2.5-Gateway-Service)
 
 ## 스크롤 없이 볼 수 있는 동영상
 
